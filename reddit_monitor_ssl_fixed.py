@@ -127,6 +127,36 @@ class RedditEarnInMonitorSSLFixed:
             logger.error(f"❌ Error getting access token: {e}")
             return None
     
+    def is_earnin_related(self, post: Dict) -> bool:
+        """Check if a post is related to Earnin app or organization"""
+        earnin_keywords = [
+            'earnin', 'earn in', 'earn-in', 'earn.in',
+            'earnin app', 'earn in app', 'earn-in app',
+            'earnin cash advance', 'earn in cash advance',
+            'earnin instant pay', 'earn in instant pay',
+            'earnin advance', 'earn in advance',
+            'earnin loan', 'earn in loan',
+            'earnin payday', 'earn in payday',
+            'earnin money', 'earn in money',
+            'earnin tips', 'earn in tips',
+            'earnin boost', 'earn in boost',
+            'earnin lightning', 'earn in lightning',
+            'earnin card', 'earn in card',
+            'earnin balance shield', 'earn in balance shield',
+            'earnin insights', 'earn in insights',
+            'earnin tools', 'earn in tools'
+        ]
+        
+        # Combine title and content for checking
+        text_to_check = f"{post.get('title', '')} {post.get('selftext', '')}".lower()
+        
+        # Check if any Earnin keyword is present
+        for keyword in earnin_keywords:
+            if keyword in text_to_check:
+                return True
+        
+        return False
+
     def fetch_subreddit_posts(self, subreddit_name: str, limit: int = 10) -> List[Dict]:
         """Fetch posts from a specific subreddit"""
         if not self.get_access_token():
@@ -157,7 +187,7 @@ class RedditEarnInMonitorSSLFixed:
                 
                 for post_data in data['data']['children']:
                     post = post_data['data']
-                    posts.append({
+                    post_dict = {
                         'id': post['id'],
                         'title': post['title'],
                         'author': post['author'],
@@ -170,9 +200,13 @@ class RedditEarnInMonitorSSLFixed:
                         'permalink': post['permalink'],
                         'is_self': post['is_self'],
                         'over_18': post['over_18']
-                    })
+                    }
+                    
+                    # Only add posts that are related to Earnin
+                    if self.is_earnin_related(post_dict):
+                        posts.append(post_dict)
                 
-                logger.info(f"r/{subreddit_name}: {len(posts)} posts found")
+                logger.info(f"r/{subreddit_name}: {len(posts)} Earnin-related posts found (from {len(data['data']['children'])} total posts)")
                 return posts
             else:
                 logger.error(f"❌ Failed to fetch from r/{subreddit_name}: {response.status_code}")
@@ -214,7 +248,7 @@ class RedditEarnInMonitorSSLFixed:
                 
                 for post_data in data['data']['children']:
                     post = post_data['data']
-                    posts.append({
+                    post_dict = {
                         'id': post['id'],
                         'title': post['title'],
                         'author': post['author'],
@@ -227,9 +261,13 @@ class RedditEarnInMonitorSSLFixed:
                         'permalink': post['permalink'],
                         'is_self': post['is_self'],
                         'over_18': post['over_18']
-                    })
+                    }
+                    
+                    # Only add posts that are related to Earnin
+                    if self.is_earnin_related(post_dict):
+                        posts.append(post_dict)
                 
-                logger.info(f"Search results: {len(posts)} posts found")
+                logger.info(f"Search results: {len(posts)} Earnin-related posts found (from {len(data['data']['children'])} total posts)")
                 return posts
             else:
                 logger.error(f"❌ Search failed: {response.status_code}")
@@ -278,14 +316,14 @@ class RedditEarnInMonitorSSLFixed:
         
         all_posts = []
         
-        # Fetch from each subreddit
+        # Fetch from each subreddit (only Earnin-related posts)
         for subreddit in self.subreddits:
-            posts = self.fetch_subreddit_posts(subreddit, limit=10)
+            posts = self.fetch_subreddit_posts(subreddit, limit=10)  # Reduced limit to 10 recent posts
             all_posts.extend(posts)
         
-        # Search for 'earnin' posts
+        # Search for 'earnin' posts (only Earnin-related posts)
         logger.info("Searching for 'earnin' posts across all subreddits...")
-        search_posts = self.search_posts('earnin', limit=10)
+        search_posts = self.search_posts('earnin', limit=10)  # Reduced limit to 10 recent posts
         all_posts.extend(search_posts)
         
         # Remove duplicates based on post ID

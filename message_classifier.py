@@ -75,7 +75,8 @@ class MessageClassifier:
         Level1Category.PAYMENTS: [
             "cash out", "cashout", "instant cash", "transfer", "withdraw", "deposit",
             "fee", "fees", "cost", "charge", "money", "payment", "balance", "funds",
-            "earning", "earnings", "get the earning", "not able to get", "unable to get"
+            "earning", "earnings", "get the earning", "not able to get", "unable to get",
+            "not able to cashout", "unable to cashout", "cashout issue", "cashout problem"
         ],
         Level1Category.PRODUCT_FEEDBACK: [
             "feature", "functionality", "tip jar", "earnin card", "insights", "analytics",
@@ -108,7 +109,8 @@ class MessageClassifier:
     L2_KEYWORDS = {
         Level2Category.CASH_OUT: [
             "cash out", "cashout", "instant cash", "withdraw", "transfer money",
-            "fee", "fees", "cost", "charge", "fast", "slow", "delay"
+            "fee", "fees", "cost", "charge", "fast", "slow", "delay",
+            "not able to cashout", "unable to cashout", "cashout issue", "cashout problem"
         ],
         Level2Category.EARNIN_CARD: [
             "earnin card", "tip jar", "tips", "card", "debit", "spending", "tip", "jar"
@@ -229,15 +231,20 @@ class MessageClassifier:
             
             for keyword in keywords:
                 if keyword.lower() in message.lower():
-                    # Weight longer keywords more heavily
-                    weight = len(keyword.split()) * 0.2 + 0.3
-                    score += weight
+                    # Weight longer keywords more heavily, and give extra weight to specific terms
+                    base_weight = len(keyword.split()) * 0.2 + 0.3
+                    # Give extra weight to specific important terms
+                    if keyword.lower() in ["cashout", "cash out", "instant cash", "withdraw", "transfer money"]:
+                        base_weight *= 2.0
+                    elif keyword.lower() in ["issue", "problem", "bug", "error", "broken", "not working"]:
+                        base_weight *= 1.5
+                    score += base_weight
             
             if total_keywords > 0:
                 category_scores[category] = score / total_keywords
         
         # If no matches found or very low scores, check for general sentiment
-        if not category_scores or max(category_scores.values()) < 0.05:
+        if not category_scores or max(category_scores.values()) < 0.02:
             # Check for positive/negative sentiment
             positive_words = ["love", "great", "awesome", "amazing", "perfect", "excellent", "good", "thanks", "thank you"]
             negative_words = ["hate", "terrible", "awful", "horrible", "bad", "worst", "disappointed", "frustrated"]
@@ -273,8 +280,13 @@ class MessageClassifier:
             
             for keyword in keywords:
                 if keyword.lower() in message.lower():
-                    weight = len(keyword.split()) * 0.2 + 0.3
-                    score += weight
+                    base_weight = len(keyword.split()) * 0.2 + 0.3
+                    # Give extra weight to specific important terms
+                    if keyword.lower() in ["cashout", "cash out", "instant cash", "withdraw", "transfer money"]:
+                        base_weight *= 2.0
+                    elif keyword.lower() in ["issue", "problem", "bug", "error", "broken", "not working"]:
+                        base_weight *= 1.5
+                    score += base_weight
             
             if total_keywords > 0:
                 category_scores[category] = score / total_keywords

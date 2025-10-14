@@ -18,7 +18,7 @@ from slack_sdk.errors import SlackApiError
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv('env.local')
+load_dotenv('config/env.local')
 
 logger = logging.getLogger(__name__)
 

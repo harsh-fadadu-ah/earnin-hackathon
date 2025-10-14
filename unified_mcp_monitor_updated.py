@@ -80,6 +80,11 @@ class UnifiedMCPMonitorUpdated:
                 name="message-processor",
                 last_check=datetime.now(timezone.utc),
                 status="stopped"
+            ),
+            "slack-reply-system": MonitorStatus(
+                name="slack-reply-system",
+                last_check=datetime.now(timezone.utc),
+                status="stopped"
             )
         }
         
@@ -269,6 +274,45 @@ class UnifiedMCPMonitorUpdated:
             self.services["message-processor"].last_error = str(e)
             return False
     
+    async def check_slack_reply_system(self) -> bool:
+        """Check and run the Slack reply system for all-feedforward channel"""
+        try:
+            from slack_reply_system import SlackReplySystem
+            
+            logger.info("Slack Reply System: Checking for new messages in all-feedforward channel...")
+            
+            # Create reply system instance
+            reply_system = SlackReplySystem()
+            
+            # Process recent messages (limit to 20 to avoid overwhelming)
+            results = await reply_system.process_recent_messages(limit=20)
+            
+            if results:
+                replies_posted = len([r for r in results if r.success])
+                jira_tickets = len([r for r in results if r.jira_ticket])
+                
+                self.services["slack-reply-system"].processed_count += replies_posted
+                
+                if replies_posted > 0:
+                    logger.info(f"Slack Reply System: ✅ Posted {replies_posted} replies to all-feedforward channel")
+                    if jira_tickets > 0:
+                        logger.info(f"Slack Reply System: 🎫 Generated {jira_tickets} JIRA tickets for negative feedback")
+                else:
+                    logger.info("Slack Reply System: ℹ️ No new messages requiring replies found")
+            else:
+                logger.info("Slack Reply System: ℹ️ No new messages found in all-feedforward channel")
+            
+            # Close reply system
+            await reply_system.close()
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error in Slack reply system check: {e}")
+            self.services["slack-reply-system"].error_count += 1
+            self.services["slack-reply-system"].last_error = str(e)
+            return False
+    
     async def run_health_checks(self):
         """Run health checks for all services"""
         logger.info("Running health checks for all MCP services (unified)...")
@@ -300,6 +344,13 @@ class UnifiedMCPMonitorUpdated:
             self.services["message-processor"].status = "running"
         else:
             self.services["message-processor"].status = "error"
+        
+        # Check Slack reply system
+        self.services["slack-reply-system"].last_check = datetime.now(timezone.utc)
+        if await self.check_slack_reply_system():
+            self.services["slack-reply-system"].status = "running"
+        else:
+            self.services["slack-reply-system"].status = "error"
     
     def get_status_report(self) -> Dict[str, Any]:
         """Generate a comprehensive status report"""
@@ -355,10 +406,11 @@ class UnifiedMCPMonitorUpdated:
     
     async def main_loop(self):
         """Main monitoring loop"""
-        logger.info("🚀 Starting Unified MCP Monitor (Updated)...")
+        logger.info("🚀 Starting Unified MCP Monitor (Updated) with Reply System...")
         logger.info(f"Check interval: {self.check_interval} seconds")
         logger.info(f"Auto-processing: {'enabled' if self.auto_process else 'disabled'}")
         logger.info(f"Using unified database: {self.unified_db_path}")
+        logger.info("📝 Services: Feedback Management, Reddit MCP, Slack Integration, Message Processor, Slack Reply System")
         
         self.running = True
         

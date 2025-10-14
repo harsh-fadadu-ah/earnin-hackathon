@@ -933,7 +933,7 @@ async def list_tools() -> List[Tool]:
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "batch_size": {"type": "integer", "description": "Number of feedback items to process", "default": 10}
+                    "batch_size": {"type": "integer", "description": "Number of feedback items to process (null for all)", "default": None}
                 }
             }
         ),
@@ -1397,12 +1397,14 @@ def post_reply(arguments: Dict[str, Any]) -> CallToolResult:
 
 def process_feedback_queue(arguments: Dict[str, Any]) -> CallToolResult:
     """Process all unprocessed feedback"""
-    batch_size = arguments.get("batch_size", 10)
+    batch_size = arguments.get("batch_size", None)
     
     unprocessed = db.get_unprocessed_feedback()
     processed_count = 0
     
-    for feedback in unprocessed[:batch_size]:
+    # Process all unprocessed feedback if batch_size is None, otherwise limit to batch_size
+    feedback_to_process = unprocessed if batch_size is None else unprocessed[:batch_size]
+    for feedback in feedback_to_process:
         # Classify
         feedback = classifier.classify_feedback(feedback)
         

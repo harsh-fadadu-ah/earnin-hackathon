@@ -9,7 +9,7 @@ from slack_sdk.web.async_client import AsyncWebClient
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv('env.local')
+load_dotenv('config/env.local')
 
 async def test_slack_channels():
     """Test Slack channels and bot access"""

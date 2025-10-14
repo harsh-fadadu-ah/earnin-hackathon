@@ -16,9 +16,9 @@ async def main():
     parser = argparse.ArgumentParser(description="Run the message processor")
     parser.add_argument("--mode", choices=["once", "continuous"], default="once",
                        help="Run once or continuously")
-    parser.add_argument("--count", type=int, default=10,
-                       help="Number of messages to process (once mode)")
-    parser.add_argument("--interval", type=int, default=300,
+    parser.add_argument("--count", type=int, default=None,
+                       help="Number of messages to process (once mode, None for all)")
+    parser.add_argument("--interval", type=int, default=60,
                        help="Interval in seconds for continuous mode")
     parser.add_argument("--stats", action="store_true",
                        help="Show statistics only")
@@ -41,7 +41,10 @@ async def main():
         
         if args.mode == "once":
             # Process messages once
-            print(f"🔄 Processing {args.count} messages...")
+            if args.count is None:
+                print("🔄 Processing all unprocessed messages...")
+            else:
+                print(f"🔄 Processing {args.count} messages...")
             stats = await processor.run_processing_cycle(args.count)
             
             print(f"\n✅ Processing Complete")
@@ -61,7 +64,7 @@ async def main():
             
             while True:
                 try:
-                    stats = await processor.run_processing_cycle(50)
+                    stats = await processor.run_processing_cycle()  # Process all unprocessed messages
                     if stats['total'] > 0:
                         print(f"Processed {stats['successful']}/{stats['total']} messages")
                     else:

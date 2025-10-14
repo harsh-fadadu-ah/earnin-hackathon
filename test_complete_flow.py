@@ -11,7 +11,7 @@ from slack_poster import SlackPoster
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv('env.local')
+load_dotenv('config/env.local')
 
 async def test_complete_flow():
     """Test the complete message processing flow"""

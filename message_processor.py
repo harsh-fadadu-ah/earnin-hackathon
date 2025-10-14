@@ -23,7 +23,7 @@ from slack_poster import SlackPoster, PostResult
 
 # Load environment variables
 from dotenv import load_dotenv
-load_dotenv('env.local')
+load_dotenv('config/env.local')
 
 # Configure logging
 logging.basicConfig(
@@ -427,7 +427,7 @@ async def main():
     parser.add_argument("--db-path", default="unified_messages.db", help="Path to the unified messages database")
     parser.add_argument("--batch-size", type=int, default=None, help="Number of messages to process in one batch (default: all messages)")
     parser.add_argument("--continuous", action="store_true", help="Run continuously, checking for new messages")
-    parser.add_argument("--interval", type=int, default=300, help="Interval in seconds for continuous mode")
+    parser.add_argument("--interval", type=int, default=60, help="Interval in seconds for continuous mode")
     parser.add_argument("--stats-only", action="store_true", help="Only show statistics, don't process messages")
     
     args = parser.parse_args()

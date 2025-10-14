@@ -1,56 +1,63 @@
 {
   "monitor_status": "running",
-  "uptime_seconds": 1330.65552,
+  "uptime_seconds": 324.617198,
   "check_interval_seconds": 60,
   "unified_database": {
-    "total_messages": 188,
+    "total_messages": 1014,
     "by_source": {
       "app_store": 13,
-      "play_store": 14,
-      "reddit": 106,
-      "slack": 50,
+      "play_store": 19,
+      "reddit": 892,
+      "slack": 85,
       "twitter": 5
     },
-    "recent_messages_24h": 131,
+    "recent_messages_24h": 238,
     "by_processed": {
-      "1": 188
+      "1": 1014
     },
     "database_path": "unified_messages.db"
   },
   "services": {
     "feedback-management-unified": {
-      "status": "error",
-      "last_check": "2025-10-14T12:39:18.720441+00:00",
+      "status": "running",
+      "last_check": "2025-10-14T19:48:02.171662+00:00",
       "processed_count": 0,
-      "error_count": 16,
-      "last_error": "No module named 'mcp'"
+      "error_count": 0,
+      "last_error": null
     },
     "reddit-mcp-unified": {
       "status": "running",
-      "last_check": "2025-10-14T12:39:18.723664+00:00",
-      "processed_count": 2,
+      "last_check": "2025-10-14T19:48:02.171682+00:00",
+      "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "slack-integration-unified": {
-      "status": "error",
-      "last_check": "2025-10-14T12:39:39.738572+00:00",
-      "processed_count": 0,
-      "error_count": 16,
-      "last_error": "No module named 'mcp'"
+      "status": "running",
+      "last_check": "2025-10-14T19:48:24.900699+00:00",
+      "processed_count": 2,
+      "error_count": 0,
+      "last_error": null
     },
     "message-processor": {
       "status": "running",
-      "last_check": "2025-10-14T12:39:39.742187+00:00",
-      "processed_count": 67,
+      "last_check": "2025-10-14T19:48:35.520349+00:00",
+      "processed_count": 0,
+      "error_count": 0,
+      "last_error": null
+    },
+    "slack-reply-system": {
+      "status": "running",
+      "last_check": "2025-10-14T19:48:35.520888+00:00",
+      "processed_count": 1,
       "error_count": 0,
       "last_error": null
     }
   },
   "summary": {
-    "total_processed": 69,
-    "total_errors": 32,
-    "healthy_services": 2,
-    "total_services": 4
+    "total_processed": 3,
+    "total_errors": 0,
+    "healthy_services": 5,
+    "total_services": 5
   }
 }

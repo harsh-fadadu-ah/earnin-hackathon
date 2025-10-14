@@ -250,8 +250,8 @@
         "parameters": {
           "batch_size": {
             "type": "integer",
-            "description": "Number of feedback items to process",
-            "default": 10,
+            "description": "Number of feedback items to process (null for all)",
+            "default": null,
             "required": false
           }
         }
@@ -426,7 +426,7 @@
       "backup_interval": "daily"
     },
     "processing": {
-      "batch_size": 10,
+      "batch_size": null,
       "concurrent_workers": 3,
       "retry_attempts": 3,
       "retry_delay": 5

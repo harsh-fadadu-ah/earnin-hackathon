@@ -1,37 +1,37 @@
 {
-  "total_messages": 176,
+  "total_messages": 179,
   "by_source": {
     "app_store": 13,
     "play_store": 14,
-    "reddit": 103,
-    "slack": 41,
+    "reddit": 97,
+    "slack": 50,
     "twitter": 5
   },
   "by_platform": {
     "android": 14,
     "ios": 13,
-    "reddit": 103,
-    "slack": 41,
+    "reddit": 97,
+    "slack": 50,
     "twitter": 5
   },
   "by_sentiment": {
-    "negative": 2,
-    "neutral": 48,
-    "positive": 18
+    "negative": 6,
+    "neutral": 52,
+    "positive": 19
   },
   "by_category": {
     "bug": 8,
     "complaint": 2,
-    "feature_request": 10,
-    "other": 37,
+    "feature_request": 11,
+    "other": 45,
     "praise": 6,
     "question": 5
   },
   "by_processed": {
-    "0": 108,
-    "1": 68
+    "0": 102,
+    "1": 77
   },
-  "recent_messages_24h": 120,
+  "recent_messages_24h": 113,
   "database_path": "unified_messages.db",
-  "last_updated": "2025-10-14T11:37:14.797524+00:00"
+  "last_updated": "2025-10-14T16:01:34.917970+00:00"
 }
