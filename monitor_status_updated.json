@@ -1,0 +1,50 @@
+{
+  "monitor_status": "running",
+  "uptime_seconds": 118.068123,
+  "check_interval_seconds": 60,
+  "unified_database": {
+    "total_messages": 182,
+    "by_source": {
+      "app_store": 13,
+      "play_store": 14,
+      "reddit": 103,
+      "slack": 47,
+      "twitter": 5
+    },
+    "recent_messages_24h": 126,
+    "by_processed": {
+      "0": 108,
+      "1": 74
+    },
+    "database_path": "unified_messages.db"
+  },
+  "services": {
+    "feedback-management-unified": {
+      "status": "running",
+      "last_check": "2025-10-14T11:45:25.913744+00:00",
+      "processed_count": 0,
+      "error_count": 0,
+      "last_error": null
+    },
+    "reddit-mcp-unified": {
+      "status": "running",
+      "last_check": "2025-10-14T11:45:25.913768+00:00",
+      "processed_count": 0,
+      "error_count": 0,
+      "last_error": null
+    },
+    "slack-integration-unified": {
+      "status": "running",
+      "last_check": "2025-10-14T11:45:46.712928+00:00",
+      "processed_count": 3,
+      "error_count": 0,
+      "last_error": null
+    }
+  },
+  "summary": {
+    "total_processed": 3,
+    "total_errors": 0,
+    "healthy_services": 3,
+    "total_services": 3
+  }
+}

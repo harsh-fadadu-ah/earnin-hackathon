@@ -1,34 +1,34 @@
 {
   "monitor_status": "running",
-  "uptime_seconds": 12883.363577,
+  "uptime_seconds": 7010.051989,
   "check_interval_seconds": 60,
   "services": {
     "feedback-management": {
       "status": "error",
-      "last_check": "2025-10-14T10:03:53.260161+00:00",
+      "last_check": "2025-10-14T11:50:21.512288+00:00",
       "processed_count": 0,
-      "error_count": 180,
+      "error_count": 67,
       "last_error": "No module named 'mcp'"
     },
     "reddit-mcp": {
-      "status": "error",
-      "last_check": "2025-10-14T10:03:53.267822+00:00",
-      "processed_count": 0,
-      "error_count": 180,
-      "last_error": "No module named 'reddit_mcp_server'"
+      "status": "running",
+      "last_check": "2025-10-14T11:50:21.516821+00:00",
+      "processed_count": 5,
+      "error_count": 0,
+      "last_error": null
     },
     "slack-integration": {
       "status": "error",
-      "last_check": "2025-10-14T10:03:53.268048+00:00",
+      "last_check": "2025-10-14T11:50:42.514306+00:00",
       "processed_count": 0,
-      "error_count": 180,
+      "error_count": 67,
       "last_error": "No module named 'mcp'"
     }
   },
   "summary": {
-    "total_processed": 0,
-    "total_errors": 540,
-    "healthy_services": 0,
+    "total_processed": 5,
+    "total_errors": 134,
+    "healthy_services": 1,
     "total_services": 3
   }
 }
