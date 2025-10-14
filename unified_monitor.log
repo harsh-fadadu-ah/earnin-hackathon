@@ -1113,3 +1113,1398 @@ See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.htm
 2025-10-14 12:52:10,843 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 54)
 2025-10-14 12:52:10,843 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 54)
 2025-10-14 12:52:10,844 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:03:33,009 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 13:03:33,009 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 13:03:33,009 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 13:03:33,009 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 13:03:33,009 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 13:03:34,276 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:03:38,612 - reddit_mcp_server - INFO - Successfully connected to Reddit as Best_Mirror2588
+2025-10-14 13:03:38,613 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:03:39,554 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:03:40,486 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/EarninB4B
+2025-10-14 13:03:40,487 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:03:41,447 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:03:42,494 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/personalfinance
+2025-10-14 13:03:42,494 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 13:03:49,136 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 13:03:49,139 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 13:03:49,142 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 13:03:49,144 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 13:03:49,146 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 13:03:49,148 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 13:03:49,150 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 13:03:49,151 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 13:03:49,152 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 13:03:49,154 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 13:03:49,155 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 13:03:49,156 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 13:03:49,157 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 13:03:49,157 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 13:03:49,157 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 13:03:49,157 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 13:03:49,157 - __main__ - INFO -   reddit-mcp: running (processed: 2, errors: 0)
+2025-10-14 13:03:49,157 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 13:03:49,157 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:04:49,159 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 13:04:49,160 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:04:50,151 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:04:51,090 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/EarninB4B
+2025-10-14 13:04:51,090 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:04:52,022 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:04:52,935 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/personalfinance
+2025-10-14 13:04:52,935 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 13:04:58,079 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 13:04:58,080 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 13:04:58,080 - __main__ - INFO -   reddit-mcp: running (processed: 4, errors: 0)
+2025-10-14 13:04:58,080 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 13:04:58,081 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:05:58,082 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 13:05:58,083 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:05:59,071 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:06:00,016 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/EarninB4B
+2025-10-14 13:06:00,016 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:06:01,022 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:06:01,989 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/personalfinance
+2025-10-14 13:06:01,989 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 13:06:07,461 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 13:06:07,461 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 13:06:07,461 - __main__ - INFO -   reddit-mcp: running (processed: 6, errors: 0)
+2025-10-14 13:06:07,461 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 13:06:07,463 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:07:07,464 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 13:07:07,465 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:07:08,465 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:07:09,489 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/EarninB4B
+2025-10-14 13:07:09,489 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:07:10,431 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:07:11,421 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/personalfinance
+2025-10-14 13:07:11,422 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 13:07:16,816 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 13:07:16,816 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 13:07:16,817 - __main__ - INFO -   reddit-mcp: running (processed: 8, errors: 0)
+2025-10-14 13:07:16,817 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 13:07:16,818 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:08:16,819 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 13:08:16,820 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:08:17,851 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:08:18,830 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/EarninB4B
+2025-10-14 13:08:18,831 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:08:19,753 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 13:08:20,719 - __main__ - INFO - Reddit MCP: Found 1 recent posts in r/personalfinance
+2025-10-14 13:08:20,720 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 13:08:25,758 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 13:08:25,758 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 13:08:25,758 - __main__ - INFO -   reddit-mcp: running (processed: 10, errors: 0)
+2025-10-14 13:08:25,758 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 13:08:25,759 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 13:08:30,894 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 13:09:25,761 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 14:25:09,335 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:25:09,336 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 14:25:09,336 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 14:25:09,336 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 14:25:09,336 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:25:09,630 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:25:14,667 - reddit_mcp_server - INFO - Successfully connected to Reddit as Best_Mirror2588
+2025-10-14 14:25:14,667 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:25:15,911 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:25:17,060 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:25:18,152 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:25:19,244 - __main__ - INFO - Reddit MCP: Found 2 recent posts in r/personalfinance
+2025-10-14 14:25:19,244 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 14:25:25,122 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:25:25,125 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:25:25,129 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:25:25,131 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:25:25,133 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:25:25,134 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:25:25,136 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:25:25,137 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:25:25,138 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:25:25,140 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:25:25,142 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:25:25,143 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:25:25,143 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:25:25,144 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:25:25,144 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 14:25:25,144 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:25:25,144 - __main__ - INFO -   reddit-mcp: running (processed: 2, errors: 0)
+2025-10-14 14:25:25,144 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:25:25,144 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:26:25,146 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:26:25,148 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:26:26,295 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:26:27,385 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:26:28,462 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:26:29,581 - __main__ - INFO - Reddit MCP: Found 2 recent posts in r/personalfinance
+2025-10-14 14:26:29,581 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 14:26:35,323 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 14:26:35,324 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:26:35,324 - __main__ - INFO -   reddit-mcp: running (processed: 4, errors: 0)
+2025-10-14 14:26:35,324 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:26:35,325 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:27:35,327 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:27:35,328 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:27:36,444 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:27:37,538 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:27:39,147 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-14 14:27:40,240 - __main__ - INFO - Reddit MCP: Found 2 recent posts in r/personalfinance
+2025-10-14 14:27:40,240 - __main__ - INFO - Reddit MCP: Total 2 recent posts found
+2025-10-14 14:27:45,419 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 14:27:45,419 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:27:45,419 - __main__ - INFO -   reddit-mcp: running (processed: 6, errors: 0)
+2025-10-14 14:27:45,419 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:27:45,421 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:28:00,681 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 14:28:45,422 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 14:43:15,297 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:43:15,298 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 14:43:15,298 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 14:43:15,298 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 14:43:15,298 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:43:15,577 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:43:17,332 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:43:17,335 - __main__ - ERROR - Error in Reddit MCP check: No module named 'asyncpraw'
+2025-10-14 14:43:23,489 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:43:23,492 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:43:23,494 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:43:23,500 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:43:23,502 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:43:23,503 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:43:23,505 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:43:23,507 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:43:23,509 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:43:23,510 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:43:23,511 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:43:23,513 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:43:23,513 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:43:23,513 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:43:23,513 - __main__ - INFO - Status Report: 2/3 services healthy
+2025-10-14 14:43:23,513 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:43:23,513 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 1)
+2025-10-14 14:43:23,513 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:43:23,514 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:44:23,515 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:44:23,519 - __main__ - ERROR - Error in Reddit MCP check: No module named 'asyncpraw'
+2025-10-14 14:44:28,957 - __main__ - INFO - Status Report: 2/3 services healthy
+2025-10-14 14:44:28,957 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:44:28,957 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 2)
+2025-10-14 14:44:28,957 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:44:28,958 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:44:40,107 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 14:45:28,960 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 14:49:12,244 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:49:12,710 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 14:49:12,710 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 14:49:12,710 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 14:49:12,710 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 14:49:27,004 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:49:27,366 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:49:29,443 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:49:29,622 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 14:49:29,622 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 14:49:29,622 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 14:49:29,622 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 14:49:35,321 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:49:35,324 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:49:35,326 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:49:35,327 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:49:35,328 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:49:35,330 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:49:35,331 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:49:35,333 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:49:35,334 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:49:35,336 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:49:35,337 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:49:35,339 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:49:35,339 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:49:35,339 - unified_mcp_monitor - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:49:44,799 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:49:45,128 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:49:46,881 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:49:47,067 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 14:49:47,067 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 14:49:47,067 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 14:49:47,067 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 14:49:52,617 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:49:52,619 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:49:52,620 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:49:52,621 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:49:52,622 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:49:52,623 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:49:52,624 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:49:52,625 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:49:52,625 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:49:52,626 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:49:52,627 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:49:52,628 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:49:52,628 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:49:52,628 - unified_mcp_monitor - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:50:00,482 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:50:00,827 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:50:02,848 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:50:03,027 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 14:50:03,027 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 14:50:03,027 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 14:50:03,027 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 14:50:08,584 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:50:08,586 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:50:08,587 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:50:08,589 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:50:08,590 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:50:08,591 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:50:08,593 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:50:08,595 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:50:08,597 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:50:08,598 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:50:08,599 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:50:08,601 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:50:08,601 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:50:08,601 - unified_mcp_monitor - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:50:37,584 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:50:37,584 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 14:50:37,584 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 14:50:37,584 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 14:50:37,584 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:50:37,868 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:50:39,899 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:50:39,902 - __main__ - ERROR - Error in Reddit MCP check: No module named 'asyncpraw'
+2025-10-14 14:50:45,945 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:50:45,949 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:50:45,952 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:50:45,955 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:50:45,957 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:50:45,958 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:50:45,960 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:50:45,961 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:50:45,963 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:50:45,965 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:50:45,966 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:50:45,968 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:50:45,968 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:50:45,968 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:50:45,968 - __main__ - INFO - Status Report: 2/3 services healthy
+2025-10-14 14:50:45,968 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:50:45,968 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 1)
+2025-10-14 14:50:45,968 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:50:45,968 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:50:55,244 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 14:51:45,970 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 14:57:03,095 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:57:03,096 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 14:57:03,096 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 14:57:03,096 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 14:57:03,096 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:57:03,418 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:57:05,409 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:57:05,412 - __main__ - ERROR - Error in Reddit MCP check: No module named 'asyncpraw'
+2025-10-14 14:57:11,856 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:57:11,859 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:57:11,861 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:57:11,864 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:57:11,866 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:57:11,868 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:57:11,869 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:57:11,871 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:57:11,872 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:57:11,874 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:57:11,876 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:57:11,877 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:57:11,877 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:57:11,877 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:57:11,877 - __main__ - INFO - Status Report: 2/3 services healthy
+2025-10-14 14:57:11,877 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:57:11,877 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 1)
+2025-10-14 14:57:11,877 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:57:11,878 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:57:26,567 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 14:58:11,880 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 14:58:21,928 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 14:58:21,928 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 14:58:21,929 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 14:58:21,929 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 14:58:21,929 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 14:58:22,267 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 14:58:24,277 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 14:58:24,281 - __main__ - ERROR - Error in Reddit MCP check: No module named 'asyncpraw'
+2025-10-14 14:58:30,195 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 14:58:30,199 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 14:58:30,202 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 14:58:30,205 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 14:58:30,208 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 14:58:30,212 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 14:58:30,214 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 14:58:30,216 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 14:58:30,219 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 14:58:30,221 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 14:58:30,223 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 14:58:30,225 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 14:58:30,225 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 14:58:30,225 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 14:58:30,225 - __main__ - INFO - Status Report: 2/3 services healthy
+2025-10-14 14:58:30,226 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 14:58:30,226 - __main__ - INFO -   reddit-mcp: error (processed: 0, errors: 1)
+2025-10-14 14:58:30,226 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 14:58:30,226 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 14:58:44,924 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 14:59:30,226 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 15:06:12,841 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:06:13,536 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 15:06:13,537 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 15:06:13,537 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 15:06:13,537 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 15:06:20,970 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:06:21,512 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:06:23,531 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:06:23,716 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 15:06:23,716 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 15:06:23,716 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 15:06:23,716 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 15:06:29,494 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:06:29,497 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:06:29,499 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:06:29,500 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:06:29,502 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:06:29,504 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:06:29,505 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:06:29,507 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:06:29,508 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:06:29,510 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:06:29,511 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:06:29,513 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:06:29,513 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 15:06:29,513 - unified_mcp_monitor - INFO - Slack integration: Processed 12 new messages
+2025-10-14 15:07:27,565 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:07:27,566 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 15:07:27,566 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 15:07:27,566 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 15:07:27,566 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:07:27,874 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:07:29,887 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:07:30,073 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/Earnin (returning empty for now)
+2025-10-14 15:07:30,073 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninB4B (returning empty for now)
+2025-10-14 15:07:30,073 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/EarninBoost (returning empty for now)
+2025-10-14 15:07:30,073 - reddit_mcp_server_async - INFO - Reddit MCP: Checking subreddit r/personalfinance (returning empty for now)
+2025-10-14 15:07:36,206 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:07:36,210 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:07:36,213 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:07:36,217 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:07:36,219 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:07:36,221 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:07:36,223 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:07:36,224 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:07:36,226 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:07:36,227 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:07:36,228 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:07:36,230 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:07:36,230 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 15:07:36,230 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 15:07:36,230 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:07:36,230 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:07:36,230 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:07:36,230 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 15:07:36,231 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:07:49,804 - __main__ - INFO - Received signal 2, shutting down...
+2025-10-14 15:08:36,233 - __main__ - INFO - 🛑 Unified MCP Monitor stopped
+2025-10-14 15:10:06,395 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:10:07,025 - unified_mcp_monitor - INFO - Reddit MCP: Searching for 'earnin' across all of Reddit...
+2025-10-14 15:10:08,126 - reddit_mcp_server_async - ERROR - Error searching posts for query 'earnin': error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:09,091 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/Earnin: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:10,090 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/EarninB4B: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:11,285 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/EarninBoost: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:11,285 - unified_mcp_monitor - INFO - Reddit MCP: No recent Earnin-related posts found
+2025-10-14 15:10:37,361 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:10:37,911 - unified_mcp_monitor - INFO - Reddit MCP: Searching for 'earnin' across all of Reddit...
+2025-10-14 15:10:38,943 - reddit_mcp_server_async - ERROR - Error searching posts for query 'earnin': error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:39,935 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/Earnin: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:40,939 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/EarninB4B: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:42,113 - reddit_mcp_server_async - ERROR - Error getting subreddit posts from r/EarninBoost: error with request Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')]
+2025-10-14 15:10:42,114 - unified_mcp_monitor - INFO - Reddit MCP: No recent Earnin-related posts found
+2025-10-14 15:11:09,572 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:11:10,202 - unified_mcp_monitor - ERROR - Error in Reddit MCP check: 'dict' object has no attribute '_default_headers'
+2025-10-14 15:12:17,822 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:12:17,826 - unified_mcp_monitor - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:12:17,826 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:12:17,827 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:12:17,827 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:12:19,811 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:12:22,139 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:12:24,341 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:12:26,557 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:12:28,801 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:12:31,078 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:12:33,280 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:12:35,558 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:12:37,940 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:12:37,943 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:12:40,130 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:12:40,134 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:12:40,134 - unified_mcp_monitor - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:12:51,903 - unified_mcp_monitor - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:12:52,308 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:12:54,366 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:12:54,369 - unified_mcp_monitor - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:12:54,370 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:12:54,370 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:12:54,370 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:12:56,463 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:12:58,682 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:13:00,855 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:13:03,074 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:13:05,354 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:13:08,095 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:13:10,296 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:13:12,535 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:13:14,821 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:13:14,823 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:13:16,956 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:13:16,960 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:13:16,960 - unified_mcp_monitor - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:13:22,859 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:13:22,862 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:13:22,864 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:13:22,867 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:13:22,869 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:13:22,871 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:13:22,872 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:13:22,873 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:13:22,875 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:13:22,877 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:13:22,878 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:13:22,879 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:13:22,879 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 15:13:22,879 - unified_mcp_monitor - INFO - Slack integration: Processed 12 new messages
+2025-10-14 15:14:07,200 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:14:07,200 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 15:14:07,200 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 15:14:07,200 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 15:14:07,200 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:14:07,594 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:14:09,635 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:14:09,637 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:14:09,638 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:14:09,638 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:14:09,638 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:14:11,685 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:14:13,988 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:14:16,202 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:14:18,377 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:14:20,644 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:14:22,904 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:14:25,202 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:14:27,454 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:14:29,706 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:14:29,708 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:14:31,850 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:14:31,854 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:14:31,855 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:14:38,309 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:14:38,312 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:14:38,316 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:14:38,318 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:14:38,319 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:14:38,320 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:14:38,322 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:14:38,325 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:14:38,327 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:14:38,329 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:14:38,330 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:14:38,332 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:14:38,332 - feedback_mcp_server - INFO - Auto-processed 12 new reviews
+2025-10-14 15:14:38,332 - __main__ - INFO - Slack integration: Processed 12 new messages
+2025-10-14 15:14:38,332 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:14:38,332 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:14:38,332 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:14:38,332 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 15:14:38,333 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:15:38,329 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:15:38,330 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:15:38,331 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:15:38,332 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:15:38,332 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:15:40,360 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:15:42,594 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:15:44,800 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:15:47,091 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:15:49,296 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:15:51,506 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:15:53,771 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:15:56,138 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:15:58,506 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:15:58,509 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:16:00,668 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:16:00,672 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:16:00,672 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:16:06,285 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:16:06,286 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:16:06,286 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:16:06,286 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 15:16:06,288 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:17:06,288 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:17:06,289 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:17:06,289 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:17:06,289 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:17:06,290 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:17:08,435 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:17:10,770 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:17:12,977 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:17:15,186 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:17:17,440 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:17:19,632 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:17:21,989 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:17:24,295 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:17:26,531 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:17:26,534 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:17:28,685 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:17:28,692 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 15:17:28,692 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 15:17:34,856 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:17:34,856 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:17:34,856 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:17:34,856 - __main__ - INFO -   slack-integration: running (processed: 12, errors: 0)
+2025-10-14 15:17:34,858 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:17:44,297 - reddit_monitor_ssl_fixed - INFO - Received signal 2, shutting down gracefully...
+2025-10-14 15:23:52,465 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:23:52,465 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 15:23:52,465 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 15:23:52,465 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 15:23:52,465 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:23:52,530 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:23:52,533 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:23:52,533 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:23:52,533 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:23:52,533 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:23:54,560 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:23:56,944 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:23:59,188 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:24:01,457 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:24:03,758 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:24:06,053 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:24:06,207 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:24:06,207 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 15:24:06,207 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 15:24:06,207 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 15:24:06,207 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:24:06,667 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:24:08,297 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:24:08,394 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:24:08,397 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:24:08,401 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:24:08,405 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:24:08,405 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:24:10,361 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:24:10,576 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:24:12,617 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:24:12,723 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:24:12,724 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:24:14,769 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:24:14,911 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:24:14,915 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 15:24:14,916 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 15:24:14,919 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:24:14,919 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:24:14,919 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 1)
+2025-10-14 15:24:14,919 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:24:14,919 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 1)
+2025-10-14 15:24:14,919 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:24:17,233 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:24:19,428 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:24:21,657 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:24:23,888 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:24:26,213 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:24:28,390 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:24:28,391 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:24:30,658 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:24:30,660 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:24:30,660 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: *testing
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435103.582239_U09L9HV3T3N
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: again tetsing message
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435097.082009_U09L9HV3T3N
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: testing message
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760433222.062889_U09L9HV3T3N
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: new message
+2025-10-14 15:24:41,075 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760433219.754299_U09L9HV3T3N
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I'm good and you?
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760432174.928419_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: hello, how are you?
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760432157.151569_U09L9HV3T3N
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: earnin testing
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760427158.039159_U09L9HV3T3N
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: testing
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760427143.877189_U09L9HV3T3N
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L3V720S2: kya bakwaas app hai
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760425342.417289_U09L3V720S2
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: :robot_face: **Automated Reply**: Thank you for your feedback. We appreciate you taking the time to ...
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760425244.962379_U09L2K09AHK
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 3 stars - The app is okay but has some bugs. The login feature doesn't work properly and ...
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello world
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424252.072469_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I didn't like the ui of this app
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424186.901389_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I love this app
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424179.675749_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hhhwajajhsuaau
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423905.216549_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hmsbdbsaka
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423891.358819_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423567.968599_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I hate this app
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760422843.045759_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I like this app
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760422836.889709_U09L2J0Q153
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 4 stars - Solid app with good features. Minor UI improvements needed.
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:24:41,076 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 1 star - Terrible experience. App doesn't work as advertised.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 3 stars - Decent app but the interface could be more intuitive.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 4 stars - Great concept but the loading times are too slow.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 5 stars - Perfect app! Exactly what I was looking for.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 2 stars - Too many bugs. App freezes frequently during use.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 4 stars - Love the functionality but could use dark mode support.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 3 stars - Good app but needs better performance optimization.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 1 star - App keeps crashing on startup. Very frustrating experience.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 5 stars - Amazing app! The new features are incredible and the UI is beautiful.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hi
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415131.671749_U09L2J0Q153
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 4 stars - Great app! Love the new features but could use dark mode support.
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:24:41,077 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415121.822729_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I like this app
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415075.244339_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Champion
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353184.841719_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Jsajqjakqk
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353181.789369_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Wklalqmansw
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353180.146529_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hiwnamamsmsbgs
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353178.376929_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Abcd
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353176.231219_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353174.719209_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Abcd
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353165.752149_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hi
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353140.384159_U09L2J0Q153
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L499AGVC: <@U09L499AGVC> has joined the channel
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: Failed
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:24:41,078 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351895.591789_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: World
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351746.808999_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hellooo
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351745.536109_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L3V720S2: heelo world
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351387.669939_U09L3V720S2
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Sbsbsha
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351382.848839_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Ahhakaka
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351381.087969_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hwllo
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351379.576149_U09L2J0Q153
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Dasdh
+2025-10-14 15:24:41,079 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351265.444399_U09L2J0Q153
+2025-10-14 15:24:41,082 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435103.582239_U09L9HV3T3N
+2025-10-14 15:24:41,083 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435097.082009_U09L9HV3T3N
+2025-10-14 15:24:41,084 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760433222.062889_U09L9HV3T3N
+2025-10-14 15:24:41,086 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760433219.754299_U09L9HV3T3N
+2025-10-14 15:24:41,087 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760432174.928419_U09L2J0Q153
+2025-10-14 15:24:41,088 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760432157.151569_U09L9HV3T3N
+2025-10-14 15:24:41,090 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760427158.039159_U09L9HV3T3N
+2025-10-14 15:24:41,091 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760427143.877189_U09L9HV3T3N
+2025-10-14 15:24:41,092 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760425342.417289_U09L3V720S2
+2025-10-14 15:24:41,094 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760425244.962379_U09L2K09AHK
+2025-10-14 15:24:41,095 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:24:41,097 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424252.072469_U09L2J0Q153
+2025-10-14 15:24:41,098 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424186.901389_U09L2J0Q153
+2025-10-14 15:24:41,099 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424179.675749_U09L2J0Q153
+2025-10-14 15:24:41,100 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423905.216549_U09L2J0Q153
+2025-10-14 15:24:41,101 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423891.358819_U09L2J0Q153
+2025-10-14 15:24:41,102 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423567.968599_U09L2J0Q153
+2025-10-14 15:24:41,103 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760422843.045759_U09L2J0Q153
+2025-10-14 15:24:41,104 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760422836.889709_U09L2J0Q153
+2025-10-14 15:24:41,105 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:24:41,106 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:24:41,107 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:24:41,109 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:24:41,110 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:24:41,111 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:24:41,112 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:24:41,113 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:24:41,114 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:24:41,116 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:24:41,117 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415131.671749_U09L2J0Q153
+2025-10-14 15:24:41,117 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:24:41,118 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415121.822729_U09L2J0Q153
+2025-10-14 15:24:41,120 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415075.244339_U09L2J0Q153
+2025-10-14 15:24:41,121 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353184.841719_U09L2J0Q153
+2025-10-14 15:24:41,122 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353181.789369_U09L2J0Q153
+2025-10-14 15:24:41,123 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353180.146529_U09L2J0Q153
+2025-10-14 15:24:41,124 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353178.376929_U09L2J0Q153
+2025-10-14 15:24:41,125 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353176.231219_U09L2J0Q153
+2025-10-14 15:24:41,126 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353174.719209_U09L2J0Q153
+2025-10-14 15:24:41,127 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353165.752149_U09L2J0Q153
+2025-10-14 15:24:41,128 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353140.384159_U09L2J0Q153
+2025-10-14 15:24:41,129 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351895.591789_U09L2J0Q153
+2025-10-14 15:24:41,130 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351746.808999_U09L2J0Q153
+2025-10-14 15:24:41,131 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351745.536109_U09L2J0Q153
+2025-10-14 15:24:41,132 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351387.669939_U09L3V720S2
+2025-10-14 15:24:41,133 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351382.848839_U09L2J0Q153
+2025-10-14 15:24:41,134 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351381.087969_U09L2J0Q153
+2025-10-14 15:24:41,136 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351379.576149_U09L2J0Q153
+2025-10-14 15:24:41,138 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351265.444399_U09L2J0Q153
+2025-10-14 15:24:41,138 - feedback_mcp_server - INFO - Auto-processed 49 new reviews
+2025-10-14 15:24:41,138 - __main__ - INFO - Slack integration: Processed 49 new messages
+2025-10-14 15:24:41,138 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:24:41,138 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:24:41,138 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:24:41,138 - __main__ - INFO -   slack-integration: running (processed: 49, errors: 0)
+2025-10-14 15:24:41,138 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:25:14,921 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:25:14,924 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:25:14,924 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:25:14,925 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:25:14,925 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:25:14,925 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:25:17,311 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:25:19,788 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:25:21,946 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:25:24,061 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:25:26,411 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:25:28,570 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:25:30,870 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:25:33,096 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:25:35,303 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:25:35,304 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:25:37,477 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:25:37,481 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 89 total posts, 0 new posts
+2025-10-14 15:25:37,481 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:25:37,484 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:25:37,484 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:25:37,484 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 2)
+2025-10-14 15:25:37,484 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:25:37,484 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 2)
+2025-10-14 15:25:37,485 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:25:41,140 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:25:41,140 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:25:41,141 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:25:41,141 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:25:41,141 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:25:43,155 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:25:45,406 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:25:47,532 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:25:49,679 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:25:51,870 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:25:54,036 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:25:56,325 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:25:58,739 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:26:00,968 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:26:00,970 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:26:03,396 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:26:03,400 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 89 total posts, 0 new posts
+2025-10-14 15:26:03,400 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:26:09,270 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:26:09,271 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:26:09,272 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:26:09,272 - __main__ - INFO -   slack-integration: running (processed: 49, errors: 0)
+2025-10-14 15:26:09,273 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:26:37,486 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:26:37,490 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:26:37,490 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:26:37,490 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:26:37,490 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:26:37,490 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:26:39,465 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:26:41,688 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:26:44,029 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:26:46,290 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:26:48,458 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:26:50,624 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:26:52,872 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:26:55,105 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:26:57,351 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:26:57,353 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:26:59,607 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:26:59,611 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:26:59,612 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:26:59,616 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:26:59,616 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:26:59,616 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 3)
+2025-10-14 15:26:59,616 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:26:59,616 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 3)
+2025-10-14 15:26:59,617 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:27:09,273 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:27:09,275 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:27:09,276 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:27:09,276 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:27:09,276 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:27:11,256 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:27:13,419 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:27:15,591 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:27:17,737 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:27:20,104 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:27:22,262 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:27:24,513 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:27:26,686 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:27:28,895 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:27:28,897 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:27:31,009 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:27:31,013 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:27:31,013 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:27:37,407 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: I am enjoying earnin app. I am giving 4 :star: rating.
+2025-10-14 15:27:37,408 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435854.925439_U09L9HV3T3N
+2025-10-14 15:27:37,412 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435854.925439_U09L9HV3T3N
+2025-10-14 15:27:37,412 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 15:27:37,412 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 15:27:37,412 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:27:37,412 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:27:37,412 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:27:37,413 - __main__ - INFO -   slack-integration: running (processed: 50, errors: 0)
+2025-10-14 15:27:37,414 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:27:43,166 - __main__ - INFO - Loaded MCP configuration from mcp_server_config.json
+2025-10-14 15:27:43,166 - __main__ - INFO - 🚀 Starting Unified MCP Monitor...
+2025-10-14 15:27:43,166 - __main__ - INFO - Check interval: 60 seconds
+2025-10-14 15:27:43,166 - __main__ - INFO - Auto-processing: enabled
+2025-10-14 15:27:43,166 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:27:43,501 - feedback_mcp_server - INFO - SlackReviewFetcher: SLACK_AVAILABLE=True, bot_token=***
+2025-10-14 15:27:45,296 - feedback_mcp_server - INFO - SlackReviewFetcher: Successfully connected as feeding_india
+2025-10-14 15:27:45,298 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:27:45,299 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:27:45,300 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:27:45,300 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:27:47,275 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:27:49,509 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:27:51,740 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:27:53,977 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:27:56,198 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:27:58,433 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:27:59,618 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:27:59,627 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:27:59,627 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:27:59,627 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:27:59,628 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:27:59,628 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:28:00,860 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:28:01,647 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:28:03,122 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:28:03,910 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:28:05,327 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:28:05,329 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:28:06,163 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:28:07,480 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:28:07,482 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:28:07,482 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:28:08,391 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:28:10,556 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:28:12,769 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:28:13,425 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: I am enjoying earnin app. I am giving 4 :star: rating.
+2025-10-14 15:28:13,425 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435854.925439_U09L9HV3T3N
+2025-10-14 15:28:13,425 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: *testing
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435103.582239_U09L9HV3T3N
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: again tetsing message
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435097.082009_U09L9HV3T3N
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: testing message
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760433222.062889_U09L9HV3T3N
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: new message
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760433219.754299_U09L9HV3T3N
+2025-10-14 15:28:13,426 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I'm good and you?
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760432174.928419_U09L2J0Q153
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: hello, how are you?
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760432157.151569_U09L9HV3T3N
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: earnin testing
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760427158.039159_U09L9HV3T3N
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: testing
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760427143.877189_U09L9HV3T3N
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L3V720S2: kya bakwaas app hai
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760425342.417289_U09L3V720S2
+2025-10-14 15:28:13,427 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: :robot_face: **Automated Reply**: Thank you for your feedback. We appreciate you taking the time to ...
+2025-10-14 15:28:13,428 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760425244.962379_U09L2K09AHK
+2025-10-14 15:28:13,428 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 3 stars - The app is okay but has some bugs. The login feature doesn't work properly and ...
+2025-10-14 15:28:13,428 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:28:13,428 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello world
+2025-10-14 15:28:13,428 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424252.072469_U09L2J0Q153
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I didn't like the ui of this app
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424186.901389_U09L2J0Q153
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I love this app
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760424179.675749_U09L2J0Q153
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hhhwajajhsuaau
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423905.216549_U09L2J0Q153
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hmsbdbsaka
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423891.358819_U09L2J0Q153
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:28:13,429 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760423567.968599_U09L2J0Q153
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I hate this app
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760422843.045759_U09L2J0Q153
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I like this app
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760422836.889709_U09L2J0Q153
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 4 stars - Solid app with good features. Minor UI improvements needed.
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 1 star - Terrible experience. App doesn't work as advertised.
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:28:13,430 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 3 stars - Decent app but the interface could be more intuitive.
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 4 stars - Great concept but the loading times are too slow.
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 5 stars - Perfect app! Exactly what I was looking for.
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:28:13,431 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 2 stars - Too many bugs. App freezes frequently during use.
+2025-10-14 15:28:13,432 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:28:13,432 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 4 stars - Love the functionality but could use dark mode support.
+2025-10-14 15:28:13,432 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:28:13,432 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 3 stars - Good app but needs better performance optimization.
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: Play Store: 1 star - App keeps crashing on startup. Very frustrating experience.
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - ✅ Parsed as Play Store review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 5 stars - Amazing app! The new features are incredible and the UI is beautiful.
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hi
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415131.671749_U09L2J0Q153
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2K09AHK: App Store: 4 stars - Great app! Love the new features but could use dark mode support.
+2025-10-14 15:28:13,433 - feedback_mcp_server - INFO - ✅ Parsed as App Store review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415121.822729_U09L2J0Q153
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: I like this app
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760415075.244339_U09L2J0Q153
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Champion
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353184.841719_U09L2J0Q153
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Jsajqjakqk
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353181.789369_U09L2J0Q153
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Wklalqmansw
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353180.146529_U09L2J0Q153
+2025-10-14 15:28:13,434 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hiwnamamsmsbgs
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353178.376929_U09L2J0Q153
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Abcd
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353176.231219_U09L2J0Q153
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353174.719209_U09L2J0Q153
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Abcd
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353165.752149_U09L2J0Q153
+2025-10-14 15:28:13,435 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hi
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760353140.384159_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L499AGVC: <@U09L499AGVC> has joined the channel
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: Failed
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hello
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351895.591789_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: World
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351746.808999_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hellooo
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351745.536109_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L3V720S2: heelo world
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351387.669939_U09L3V720S2
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Sbsbsha
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351382.848839_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Ahhakaka
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351381.087969_U09L2J0Q153
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: Hwllo
+2025-10-14 15:28:13,436 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760351379.576149_U09L2J0Q153
+2025-10-14 15:28:13,439 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435854.925439_U09L9HV3T3N
+2025-10-14 15:28:13,441 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435103.582239_U09L9HV3T3N
+2025-10-14 15:28:13,442 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435097.082009_U09L9HV3T3N
+2025-10-14 15:28:13,445 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760433222.062889_U09L9HV3T3N
+2025-10-14 15:28:13,447 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760433219.754299_U09L9HV3T3N
+2025-10-14 15:28:13,449 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760432174.928419_U09L2J0Q153
+2025-10-14 15:28:13,459 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760432157.151569_U09L9HV3T3N
+2025-10-14 15:28:13,460 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760427158.039159_U09L9HV3T3N
+2025-10-14 15:28:13,462 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760427143.877189_U09L9HV3T3N
+2025-10-14 15:28:13,463 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760425342.417289_U09L3V720S2
+2025-10-14 15:28:13,465 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760425244.962379_U09L2K09AHK
+2025-10-14 15:28:13,466 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760425233.219699_U09L2K09AHK
+2025-10-14 15:28:13,468 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424252.072469_U09L2J0Q153
+2025-10-14 15:28:13,474 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424186.901389_U09L2J0Q153
+2025-10-14 15:28:13,475 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760424179.675749_U09L2J0Q153
+2025-10-14 15:28:13,477 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423905.216549_U09L2J0Q153
+2025-10-14 15:28:13,478 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423891.358819_U09L2J0Q153
+2025-10-14 15:28:13,479 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760423567.968599_U09L2J0Q153
+2025-10-14 15:28:13,481 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760422843.045759_U09L2J0Q153
+2025-10-14 15:28:13,483 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760422836.889709_U09L2J0Q153
+2025-10-14 15:28:13,484 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415441.759309_U09L2K09AHK
+2025-10-14 15:28:13,485 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415439.059149_U09L2K09AHK
+2025-10-14 15:28:13,487 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415436.318689_U09L2K09AHK
+2025-10-14 15:28:13,488 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415433.462249_U09L2K09AHK
+2025-10-14 15:28:13,489 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415430.755949_U09L2K09AHK
+2025-10-14 15:28:13,490 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415427.714609_U09L2K09AHK
+2025-10-14 15:28:13,491 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415424.974009_U09L2K09AHK
+2025-10-14 15:28:13,492 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415422.091059_U09L2K09AHK
+2025-10-14 15:28:13,494 - feedback_mcp_server - INFO - Auto-processed new review: slack_playstore_1760415419.361419_U09L2K09AHK
+2025-10-14 15:28:13,495 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415416.415709_U09L2K09AHK
+2025-10-14 15:28:13,496 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415131.671749_U09L2J0Q153
+2025-10-14 15:28:13,497 - feedback_mcp_server - INFO - Auto-processed new review: slack_appstore_1760415128.899339_U09L2K09AHK
+2025-10-14 15:28:13,498 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415121.822729_U09L2J0Q153
+2025-10-14 15:28:13,499 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760415075.244339_U09L2J0Q153
+2025-10-14 15:28:13,500 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353184.841719_U09L2J0Q153
+2025-10-14 15:28:13,501 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353181.789369_U09L2J0Q153
+2025-10-14 15:28:13,502 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353180.146529_U09L2J0Q153
+2025-10-14 15:28:13,504 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353178.376929_U09L2J0Q153
+2025-10-14 15:28:13,506 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353176.231219_U09L2J0Q153
+2025-10-14 15:28:13,507 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353174.719209_U09L2J0Q153
+2025-10-14 15:28:13,508 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353165.752149_U09L2J0Q153
+2025-10-14 15:28:13,509 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760353140.384159_U09L2J0Q153
+2025-10-14 15:28:13,510 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351895.591789_U09L2J0Q153
+2025-10-14 15:28:13,511 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351746.808999_U09L2J0Q153
+2025-10-14 15:28:13,512 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351745.536109_U09L2J0Q153
+2025-10-14 15:28:13,513 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351387.669939_U09L3V720S2
+2025-10-14 15:28:13,514 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351382.848839_U09L2J0Q153
+2025-10-14 15:28:13,515 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351381.087969_U09L2J0Q153
+2025-10-14 15:28:13,516 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760351379.576149_U09L2J0Q153
+2025-10-14 15:28:13,516 - feedback_mcp_server - INFO - Auto-processed 49 new reviews
+2025-10-14 15:28:13,516 - __main__ - INFO - Slack integration: Processed 49 new messages
+2025-10-14 15:28:13,517 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:28:13,517 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:28:13,517 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:28:13,517 - __main__ - INFO -   slack-integration: running (processed: 49, errors: 0)
+2025-10-14 15:28:13,517 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:28:15,056 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:28:17,593 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:28:19,746 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:28:19,748 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:28:21,838 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:28:21,842 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:28:21,842 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:28:21,847 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:28:21,847 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:28:21,847 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 4)
+2025-10-14 15:28:21,848 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:28:21,848 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 4)
+2025-10-14 15:28:21,848 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:28:37,415 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:28:37,416 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:28:37,417 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:28:37,417 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:28:37,418 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:28:39,397 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:28:41,608 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:28:43,787 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:28:45,981 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:28:48,361 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:28:50,663 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:28:52,894 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:28:55,285 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:28:57,498 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:28:57,500 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:28:59,676 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:28:59,679 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:28:59,679 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:29:05,148 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: Why give 4 :star:, I will give 5 star
+2025-10-14 15:29:05,149 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435921.625789_U09L9HV3T3N
+2025-10-14 15:29:05,152 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435921.625789_U09L9HV3T3N
+2025-10-14 15:29:05,152 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 15:29:05,152 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 15:29:05,152 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:29:05,152 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:29:05,152 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:29:05,152 - __main__ - INFO -   slack-integration: running (processed: 51, errors: 0)
+2025-10-14 15:29:05,153 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:29:13,518 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:29:13,519 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:29:13,519 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:29:13,519 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:29:13,520 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:29:15,519 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:29:17,772 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:29:19,906 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:29:21,850 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:29:21,853 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:29:21,854 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:29:21,855 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:29:21,855 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:29:21,855 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:29:22,065 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:29:23,886 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:29:24,228 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:29:26,145 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:29:26,453 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:29:28,336 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:29:28,638 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:29:30,506 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:29:31,193 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:29:32,809 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:29:33,388 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:29:33,390 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:29:35,066 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:29:35,462 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:29:35,466 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:29:35,466 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:29:37,262 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:29:39,598 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:29:41,295 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L9HV3T3N: Why give 4 :star:, I will give 5 star
+2025-10-14 15:29:41,295 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760435921.625789_U09L9HV3T3N
+2025-10-14 15:29:41,299 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760435921.625789_U09L9HV3T3N
+2025-10-14 15:29:41,300 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 15:29:41,300 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 15:29:41,300 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:29:41,300 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:29:41,300 - __main__ - INFO -   reddit-mcp: running (processed: 0, errors: 0)
+2025-10-14 15:29:41,301 - __main__ - INFO -   slack-integration: running (processed: 50, errors: 0)
+2025-10-14 15:29:41,302 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:29:41,853 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:29:41,855 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:29:43,904 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:29:43,907 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:29:43,907 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:29:43,912 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:29:43,912 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:29:43,913 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 5)
+2025-10-14 15:29:43,913 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:29:43,913 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 5)
+2025-10-14 15:29:43,913 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:29:51,706 - reddit_monitor_ssl_fixed - INFO - Received signal 2, shutting down gracefully...
+2025-10-14 15:30:05,158 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:30:05,158 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:30:05,160 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:30:05,161 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:30:05,161 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:30:07,097 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:30:09,341 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:30:11,517 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:30:14,190 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:30:16,379 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:30:18,573 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:30:20,896 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:30:23,167 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:30:25,334 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:30:25,336 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:30:27,455 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:30:27,460 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 15:30:27,460 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 15:30:33,712 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:30:33,713 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:30:33,714 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:30:33,714 - __main__ - INFO -   slack-integration: running (processed: 51, errors: 0)
+2025-10-14 15:30:33,716 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:30:43,920 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:30:43,929 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:30:43,929 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:30:43,931 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:30:43,931 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:30:43,931 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:30:45,874 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:30:48,101 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:30:50,784 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:30:52,971 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:30:55,128 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:30:57,259 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:30:59,437 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:31:01,698 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:31:03,861 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:31:03,862 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:31:05,981 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:31:05,985 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:31:05,985 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:31:05,992 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:31:05,992 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:31:05,992 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 6)
+2025-10-14 15:31:05,992 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:31:05,992 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 6)
+2025-10-14 15:31:05,993 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:31:33,718 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:31:33,718 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:31:33,719 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:31:33,719 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:31:33,720 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:31:35,718 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:31:37,913 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:31:40,065 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:31:42,232 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:31:44,358 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:31:46,544 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:31:48,823 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:31:51,011 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:31:53,271 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:31:53,272 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:31:55,350 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:31:55,354 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:31:55,354 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:32:00,458 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:32:00,458 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:32:00,458 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:32:00,458 - __main__ - INFO -   slack-integration: running (processed: 51, errors: 0)
+2025-10-14 15:32:00,459 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:32:05,994 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:32:05,997 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:32:05,997 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:32:05,997 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:32:05,997 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:32:05,997 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:32:07,981 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:32:10,218 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:32:12,427 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:32:14,569 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:32:16,779 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:32:18,929 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:32:21,103 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:32:23,416 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:32:25,664 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:32:25,665 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:32:27,776 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:32:27,779 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:32:27,779 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:32:27,791 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:32:27,792 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:32:27,792 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 7)
+2025-10-14 15:32:27,792 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:32:27,792 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 7)
+2025-10-14 15:32:27,792 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:33:00,460 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:33:00,460 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:33:00,464 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:33:00,464 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:33:00,464 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:33:02,453 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:33:04,698 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:33:06,800 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:33:08,976 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:33:11,137 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:33:13,286 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:33:15,524 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:33:17,760 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:33:19,925 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:33:19,927 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:33:22,035 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:33:22,041 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 90 new posts
+2025-10-14 15:33:22,041 - __main__ - INFO - Reddit MCP: Found 90 new Earnin-related posts
+2025-10-14 15:33:27,704 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 15:33:27,704 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 15:33:27,704 - __main__ - INFO -   reddit-mcp: running (processed: 91, errors: 0)
+2025-10-14 15:33:27,704 - __main__ - INFO -   slack-integration: running (processed: 51, errors: 0)
+2025-10-14 15:33:27,705 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 15:33:27,794 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 15:33:27,803 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 15:33:27,803 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 15:33:27,804 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 15:33:27,804 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 15:33:27,804 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 15:33:29,758 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 15:33:32,002 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 15:33:34,140 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 15:33:36,306 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 15:33:38,592 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 15:33:40,717 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 15:33:43,069 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 15:33:45,315 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 15:33:47,504 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 15:33:47,506 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 15:33:49,564 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 15:33:49,567 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 15:33:49,567 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 15:33:49,573 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 15:33:49,573 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 15:33:49,573 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 8)
+2025-10-14 15:33:49,573 - __main__ - INFO -   reddit-mcp: running (processed: 1, errors: 0)
+2025-10-14 15:33:49,573 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 8)
+2025-10-14 15:33:49,574 - __main__ - INFO - ⏰ Next check in 60 seconds...

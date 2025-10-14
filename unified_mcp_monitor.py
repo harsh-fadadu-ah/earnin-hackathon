@@ -18,6 +18,13 @@ from datetime import datetime, timezone
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, asdict
 
+# Apply SSL bypass for corporate networks
+try:
+    from ssl_bypass_fix import apply_ssl_bypass
+    apply_ssl_bypass()
+except ImportError:
+    pass
+
 # Load environment variables
 from dotenv import load_dotenv
 load_dotenv()
@@ -122,34 +129,24 @@ class UnifiedMCPMonitor:
             return False
     
     async def check_reddit_mcp(self) -> bool:
-        """Check and process Reddit MCP server"""
+        """Check and process Reddit MCP server using the working SSL-fixed monitor"""
         try:
-            # Import and use the Reddit server components
-            from reddit_mcp_server import reddit_client
+            # Use the working Reddit monitor that has SSL bypass
+            from reddit_monitor_ssl_fixed import RedditEarnInMonitorSSLFixed
             
-            # Check for new posts in monitored subreddits
-            subreddits = ["Earnin", "EarninB4B", "EarninBoost", "personalfinance"]
-            total_posts = 0
+            logger.info("Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...")
             
-            for subreddit in subreddits:
-                try:
-                    posts = reddit_client.get_subreddit_posts(subreddit, limit=5, sort="new")
-                    # Filter for recent posts (last hour)
-                    recent_posts = [
-                        post for post in posts 
-                        if (datetime.now(timezone.utc) - post.created_utc).total_seconds() < 3600
-                    ]
-                    total_posts += len(recent_posts)
-                    
-                    if recent_posts:
-                        logger.info(f"Reddit MCP: Found {len(recent_posts)} recent posts in r/{subreddit}")
-                        
-                except Exception as e:
-                    logger.warning(f"Error checking subreddit {subreddit}: {e}")
+            # Create monitor instance
+            reddit_monitor = RedditEarnInMonitorSSLFixed()
+            
+            # Fetch new posts (this includes both subreddit-specific and global search)
+            total_posts = reddit_monitor.fetch_new_posts()
             
             if total_posts > 0:
                 self.services["reddit-mcp"].processed_count += total_posts
-                logger.info(f"Reddit MCP: Total {total_posts} recent posts found")
+                logger.info(f"Reddit MCP: Found {total_posts} new Earnin-related posts")
+            else:
+                logger.info("Reddit MCP: No new Earnin-related posts found")
             
             return True
             

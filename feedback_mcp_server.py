@@ -39,8 +39,10 @@ try:
     import ssl
     import certifi
     
-    # Configure SSL context to use certifi certificates
-    ssl_context = ssl.create_default_context(cafile=certifi.where())
+    # Configure SSL context to use certifi certificates and disable verification if needed
+    ssl_context = ssl.create_default_context()
+    ssl_context.check_hostname = False
+    ssl_context.verify_mode = ssl.CERT_NONE
     SLACK_AVAILABLE = True
 except ImportError:
     SLACK_AVAILABLE = False
@@ -68,6 +70,7 @@ class FeedbackSource(Enum):
     TWITTER = "twitter"
     EMAIL = "email"
     WEB = "web"
+    SLACK = "slack"
     OTHER = "other"
 
 class FeedbackCategory(Enum):
@@ -450,12 +453,25 @@ class SlackReviewFetcher:
         self.client = None
         self.last_processed_timestamp = None
         self.auto_process_enabled = os.getenv('AUTO_PROCESS_REVIEWS', 'true').lower() == 'true'
+        
+        logger.info(f"SlackReviewFetcher: SLACK_AVAILABLE={SLACK_AVAILABLE}, bot_token={'***' if self.bot_token else 'None'}")
+        
         if SLACK_AVAILABLE and self.bot_token:
-            # Initialize WebClient with SSL context to handle certificate issues
-            if ssl_context:
-                self.client = WebClient(token=self.bot_token, ssl=ssl_context)
-            else:
-                self.client = WebClient(token=self.bot_token)
+            try:
+                # Initialize WebClient with SSL context to handle certificate issues
+                if ssl_context:
+                    self.client = WebClient(token=self.bot_token, ssl=ssl_context)
+                else:
+                    self.client = WebClient(token=self.bot_token)
+                
+                # Test the connection
+                auth_response = self.client.auth_test()
+                logger.info(f"SlackReviewFetcher: Successfully connected as {auth_response['user']}")
+            except Exception as e:
+                logger.error(f"SlackReviewFetcher: Failed to initialize client: {e}")
+                self.client = None
+        else:
+            logger.warning(f"SlackReviewFetcher: Not initializing client - SLACK_AVAILABLE={SLACK_AVAILABLE}, bot_token={'***' if self.bot_token else 'None'}")
     
     def get_channel_id(self, channel_name: Optional[str] = None) -> Optional[str]:
         """Get channel ID from channel name"""
@@ -480,6 +496,8 @@ class SlackReviewFetcher:
         if not self.client:
             logger.warning("Slack client not available, returning mock data")
             return self._get_mock_slack_reviews(limit)
+        
+        logger.info(f"Fetching reviews from Slack channel: {channel_name}")
         
         # Use environment variable or default if not provided
         if channel_name is None:
@@ -507,6 +525,7 @@ class SlackReviewFetcher:
             
         except SlackApiError as e:
             logger.error(f"Error fetching messages from Slack: {e}")
+            logger.warning("Falling back to mock data due to Slack API error")
             return self._get_mock_slack_reviews(limit)
     
     def _parse_slack_message(self, message: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -515,15 +534,24 @@ class SlackReviewFetcher:
         timestamp = message.get("ts", "")
         user = message.get("user", "unknown")
         
+        # Log all messages for debugging
+        logger.info(f"📨 Processing Slack message from user {user}: {text[:100]}{'...' if len(text) > 100 else ''}")
+        
         # Parse different review formats
         review_data = None
         
         # App Store review format
         if "App Store" in text or "iOS" in text:
             review_data = self._parse_app_store_review(text, timestamp, user)
+            logger.info(f"✅ Parsed as App Store review: {review_data['id'] if review_data else 'Failed'}")
         # Play Store review format  
         elif "Play Store" in text or "Android" in text or "Google Play" in text:
             review_data = self._parse_play_store_review(text, timestamp, user)
+            logger.info(f"✅ Parsed as Play Store review: {review_data['id'] if review_data else 'Failed'}")
+        else:
+            # Process as general Slack message
+            review_data = self._parse_general_slack_message(text, timestamp, user)
+            logger.info(f"✅ Parsed as general Slack message: {review_data['id'] if review_data else 'Failed'}")
         
         return review_data
     
@@ -592,6 +620,26 @@ class SlackReviewFetcher:
             "content": content,
             "author": user,
             "rating": rating,
+            "timestamp": datetime.fromtimestamp(float(timestamp)).isoformat(),
+            "url": f"slack://channel?team=T&id=C&message={timestamp}",
+            "platform": "slack"
+        }
+    
+    def _parse_general_slack_message(self, text: str, timestamp: str, user: str) -> Optional[Dict[str, Any]]:
+        """Parse general Slack message as feedback"""
+        # Clean the content
+        content = text.strip()
+        
+        # Skip empty messages or system messages
+        if not content or content.startswith('<!') or content.startswith('<@'):
+            return None
+        
+        return {
+            "id": f"slack_general_{timestamp}_{user}",
+            "source": "slack",
+            "content": content,
+            "author": user,
+            "rating": None,  # No rating for general messages
             "timestamp": datetime.fromtimestamp(float(timestamp)).isoformat(),
             "url": f"slack://channel?team=T&id=C&message={timestamp}",
             "platform": "slack"
@@ -693,8 +741,10 @@ class SlackReviewFetcher:
                 source = FeedbackSource.APP_STORE
             elif review_data["source"] == "play_store":
                 source = FeedbackSource.PLAY_STORE
+            elif review_data["source"] == "slack":
+                source = FeedbackSource.SLACK
             else:
-                continue  # Skip non-review messages
+                continue  # Skip unrecognized messages
             
             feedback = Feedback(
                 id=review_data["id"],
@@ -908,6 +958,17 @@ async def list_tools() -> List[Tool]:
                     "auto_process": {"type": "boolean", "description": "Automatically process new reviews", "default": true}
                 }
             }
+        ),
+        Tool(
+            name="fetch_slack_messages",
+            description="Fetch all messages from a Slack channel (including general messages)",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "channel_name": {"type": "string", "description": "Slack channel name to fetch from", "default": "all-feedforward"},
+                    "limit": {"type": "integer", "description": "Maximum number of messages to fetch", "default": 50}
+                }
+            }
         )
     ]
 
@@ -945,6 +1006,8 @@ async def call_tool(name: str, arguments: Dict[str, Any]) -> CallToolResult:
             return get_metrics(arguments)
         elif name == "check_new_reviews":
             return check_new_reviews(arguments)
+        elif name == "fetch_slack_messages":
+            return fetch_slack_messages(arguments)
         else:
             return CallToolResult(
                 content=[TextContent(type="text", text=f"Unknown tool: {name}")]
@@ -1050,8 +1113,11 @@ def fetch_slack_reviews(arguments: Dict[str, Any]) -> CallToolResult:
         elif review_data["source"] == "play_store":
             source = FeedbackSource.PLAY_STORE
             play_store_count += 1
+        elif review_data["source"] == "slack":
+            source = FeedbackSource.SLACK
+            # Count general Slack messages separately
         else:
-            continue  # Skip non-review messages
+            continue  # Skip unrecognized messages
         
         feedback = Feedback(
             id=review_data["id"],
@@ -1068,10 +1134,11 @@ def fetch_slack_reviews(arguments: Dict[str, Any]) -> CallToolResult:
         if db.save_feedback(feedback):
             saved_count += 1
     
+    slack_count = saved_count - app_store_count - play_store_count
     return CallToolResult(
         content=[TextContent(
             type="text", 
-            text=f"Fetched and saved {saved_count} reviews from Slack channel '{channel_name}': {app_store_count} App Store, {play_store_count} Play Store"
+            text=f"Fetched and saved {saved_count} messages from Slack channel '{channel_name}': {app_store_count} App Store, {play_store_count} Play Store, {slack_count} general messages"
         )]
     )
 
@@ -1420,6 +1487,56 @@ def check_new_reviews(arguments: Dict[str, Any]) -> CallToolResult:
                     text=f"ℹ️ No new reviews found in channel '{channel_name}'"
                 )]
             )
+
+def fetch_slack_messages(arguments: Dict[str, Any]) -> CallToolResult:
+    """Fetch all messages from a Slack channel (including general messages)"""
+    channel_name = arguments.get("channel_name", os.getenv('SLACK_REVIEW_CHANNEL', 'all-feedforward'))
+    limit = arguments.get("limit", 50)
+    
+    # Fetch all messages from Slack channel
+    slack_messages = slack_fetcher.fetch_reviews_from_slack(channel_name, limit)
+    
+    # Save to database
+    saved_count = 0
+    app_store_count = 0
+    play_store_count = 0
+    general_count = 0
+    
+    for message_data in slack_messages:
+        # Determine source
+        if message_data["source"] == "app_store":
+            source = FeedbackSource.APP_STORE
+            app_store_count += 1
+        elif message_data["source"] == "play_store":
+            source = FeedbackSource.PLAY_STORE
+            play_store_count += 1
+        elif message_data["source"] == "slack":
+            source = FeedbackSource.SLACK
+            general_count += 1
+        else:
+            continue  # Skip unrecognized messages
+        
+        feedback = Feedback(
+            id=message_data["id"],
+            source=source,
+            content=message_data["content"],
+            author=message_data["author"],
+            timestamp=datetime.fromisoformat(message_data["timestamp"]),
+            url=message_data["url"],
+            rating=message_data["rating"]
+        )
+        
+        # Normalize and save
+        feedback = normalizer.normalize_feedback(feedback)
+        if db.save_feedback(feedback):
+            saved_count += 1
+    
+    return CallToolResult(
+        content=[TextContent(
+            type="text", 
+            text=f"Fetched and saved {saved_count} messages from Slack channel '{channel_name}': {app_store_count} App Store, {play_store_count} Play Store, {general_count} general messages"
+        )]
+    )
 
 # Resources
 

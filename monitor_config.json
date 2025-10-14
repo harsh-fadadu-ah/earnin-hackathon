@@ -29,7 +29,7 @@
   },
   "filters": {
     "min_age_minutes": 0,
-    "max_age_minutes": 2,
+    "max_age_minutes": 60,
     "include_over_18": false,
     "min_score": -100
   }
