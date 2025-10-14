@@ -1,0 +1,37 @@
+{
+  "reddit_credentials": {
+    "client_id": "k3n3Jc9hKlpm0OBC9f5VoA",
+    "client_secret": "GM2yWaXXS7-SCwMq5KUpARLh2bqg2A",
+    "user_agent": "FeedForward",
+    "username": "Best_Mirror2588",
+    "password": "Harsh_password"
+  },
+  "monitoring": {
+    "check_interval_seconds": 60,
+    "subreddits": [
+      "Earnin",
+      "EarninB4B", 
+      "EarninBoost",
+      "cashadvanceapps",
+      "personalfinance",
+      "EarningOnline",
+      "beermoney",
+      "workonline"
+    ],
+    "search_queries": ["earnin"],
+    "posts_per_subreddit": 10,
+    "search_posts_limit": 10
+  },
+  "storage": {
+    "database_path": "earnin_posts.db",
+    "json_output_directory": ".",
+    "log_file": "reddit_monitor.log"
+  },
+  "filters": {
+    "min_age_minutes": 0,
+    "max_age_minutes": 2,
+    "include_over_18": false,
+    "min_score": -100
+  }
+}
+

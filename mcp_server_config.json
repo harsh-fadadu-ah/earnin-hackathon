@@ -1,0 +1,489 @@
+{
+  "mcpServers": {
+    "feedback-management": {
+      "command": "python3.11",
+      "args": ["/Users/harshfadadu/Downloads/hackathon/feedback_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "/Users/harshfadadu/Downloads/hackathon"
+      }
+    },
+    "reddit-mcp": {
+      "command": "python3.11",
+      "args": ["/Users/harshfadadu/Downloads/hackathon/reddit_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "/Users/harshfadadu/Downloads/hackathon"
+      }
+    }
+  },
+  "serverInfo": {
+    "name": "Feedback Management MCP Server",
+    "version": "1.0.0",
+    "description": "A comprehensive MCP server for collecting, processing, and managing feedback from multiple sources including App Store, Google Play, Reddit, Twitter, and other channels.",
+    "author": "Feedback Management Team",
+    "license": "MIT",
+    "repository": "https://github.com/your-org/feedback-mcp-server",
+    "documentation": "https://docs.your-org.com/feedback-mcp-server"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "fetch_appstore_reviews",
+        "description": "Fetch App Store reviews from Slack app-review channel",
+        "category": "data_collection",
+        "parameters": {
+          "channel_name": {
+            "type": "string",
+            "description": "Slack channel name to fetch from",
+            "default": "app-review",
+            "required": false
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of reviews to fetch",
+            "default": 50,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "fetch_playstore_reviews",
+        "description": "Fetch Play Store reviews from Slack app-review channel",
+        "category": "data_collection",
+        "parameters": {
+          "channel_name": {
+            "type": "string",
+            "description": "Slack channel name to fetch from",
+            "default": "app-review",
+            "required": false
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of reviews to fetch",
+            "default": 50,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "fetch_slack_reviews",
+        "description": "Fetch all app reviews (App Store and Play Store) from Slack app-review channel",
+        "category": "data_collection",
+        "parameters": {
+          "channel_name": {
+            "type": "string",
+            "description": "Slack channel name to fetch from",
+            "default": "app-review",
+            "required": false
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of reviews to fetch",
+            "default": 50,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "reddit_search_stream",
+        "description": "Search for mentions on Reddit",
+        "category": "data_collection",
+        "parameters": {
+          "query": {
+            "type": "string",
+            "description": "Search query",
+            "required": true
+          },
+          "subreddit": {
+            "type": "string",
+            "description": "Specific subreddit to search",
+            "required": false
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of posts to fetch",
+            "default": 25,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "twitter_search_stream",
+        "description": "Search for mentions on Twitter/X",
+        "category": "data_collection",
+        "parameters": {
+          "query": {
+            "type": "string",
+            "description": "Search query",
+            "required": true
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of tweets to fetch",
+            "default": 25,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "url_scrape_feed",
+        "description": "Scrape feedback from a URL",
+        "category": "data_collection",
+        "parameters": {
+          "url": {
+            "type": "string",
+            "description": "URL to scrape",
+            "required": true
+          },
+          "selector": {
+            "type": "string",
+            "description": "CSS selector for feedback content",
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "classify_feedback",
+        "description": "Classify feedback into category, sentiment, and severity",
+        "category": "processing",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to classify",
+            "required": true
+          }
+        }
+      },
+      {
+        "name": "score_business_impact",
+        "description": "Score the business impact of feedback",
+        "category": "processing",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to score",
+            "required": true
+          }
+        }
+      },
+      {
+        "name": "route_to_team",
+        "description": "Route feedback to appropriate team based on classification",
+        "category": "routing",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to route",
+            "required": true
+          }
+        }
+      },
+      {
+        "name": "create_ticket_or_thread",
+        "description": "Create a ticket or thread for feedback",
+        "category": "ticketing",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to create ticket for",
+            "required": true
+          },
+          "platform": {
+            "type": "string",
+            "description": "Platform to create ticket on (slack, jira, asana)",
+            "required": true
+          },
+          "channel": {
+            "type": "string",
+            "description": "Channel or project to create ticket in",
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "generate_reply",
+        "description": "Generate a reply for feedback",
+        "category": "response",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to reply to",
+            "required": true
+          },
+          "tone": {
+            "type": "string",
+            "description": "Tone for the reply (professional, friendly, apologetic)",
+            "required": false
+          },
+          "platform": {
+            "type": "string",
+            "description": "Platform to generate reply for",
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "post_reply",
+        "description": "Post a reply to the original platform",
+        "category": "response",
+        "parameters": {
+          "feedback_id": {
+            "type": "string",
+            "description": "ID of feedback to reply to",
+            "required": true
+          },
+          "reply_content": {
+            "type": "string",
+            "description": "Content of the reply",
+            "required": true
+          },
+          "platform": {
+            "type": "string",
+            "description": "Platform to post reply on",
+            "required": true
+          }
+        }
+      },
+      {
+        "name": "process_feedback_queue",
+        "description": "Process all unprocessed feedback in the queue",
+        "category": "automation",
+        "parameters": {
+          "batch_size": {
+            "type": "integer",
+            "description": "Number of feedback items to process",
+            "default": 10,
+            "required": false
+          }
+        }
+      },
+      {
+        "name": "get_metrics",
+        "description": "Get feedback metrics and dashboard data",
+        "category": "analytics",
+        "parameters": {
+          "timeframe": {
+            "type": "string",
+            "description": "Timeframe for metrics (day, week, month)",
+            "default": "week",
+            "required": false
+          },
+          "source": {
+            "type": "string",
+            "description": "Filter by source (optional)",
+            "required": false
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "uri": "company-context",
+        "name": "Company Context",
+        "description": "Company taxonomies, SLAs, known issues, and release notes",
+        "mimeType": "application/json"
+      },
+      {
+        "uri": "education-content",
+        "name": "Education Content",
+        "description": "How-tos, FAQ, and policy links for customer education",
+        "mimeType": "application/json"
+      },
+      {
+        "uri": "feedback-database",
+        "name": "Feedback Database",
+        "description": "Access to the feedback database for queries and analysis",
+        "mimeType": "application/json"
+      }
+    ]
+  },
+  "workflow": {
+    "description": "Complete feedback management workflow from collection to response",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Data Collection",
+        "description": "Collect feedback from various sources",
+        "tools": ["fetch_slack_reviews", "fetch_appstore_reviews", "fetch_playstore_reviews", "reddit_search_stream", "twitter_search_stream", "url_scrape_feed"]
+      },
+      {
+        "step": 2,
+        "name": "Normalization",
+        "description": "Normalize and clean collected data",
+        "process": "automatic"
+      },
+      {
+        "step": 3,
+        "name": "Classification",
+        "description": "Classify feedback into categories, sentiment, and severity",
+        "tools": ["classify_feedback"]
+      },
+      {
+        "step": 4,
+        "name": "Business Impact Scoring",
+        "description": "Score the business impact of feedback",
+        "tools": ["score_business_impact"]
+      },
+      {
+        "step": 5,
+        "name": "Routing",
+        "description": "Route feedback to appropriate teams",
+        "tools": ["route_to_team"]
+      },
+      {
+        "step": 6,
+        "name": "Ticket Creation",
+        "description": "Create tickets or threads for feedback",
+        "tools": ["create_ticket_or_thread"]
+      },
+      {
+        "step": 7,
+        "name": "Response Generation",
+        "description": "Generate appropriate responses",
+        "tools": ["generate_reply"]
+      },
+      {
+        "step": 8,
+        "name": "Response Posting",
+        "description": "Post responses to original platforms",
+        "tools": ["post_reply"]
+      },
+      {
+        "step": 9,
+        "name": "Metrics & Analytics",
+        "description": "Track and analyze feedback metrics",
+        "tools": ["get_metrics"]
+      }
+    ]
+  },
+  "integrations": {
+    "data_sources": [
+      {
+        "name": "Slack App Review Channel",
+        "type": "slack",
+        "authentication": "bot_token",
+        "rate_limit": "1/minute",
+        "description": "Primary source for App Store and Play Store reviews"
+      },
+      {
+        "name": "Apple App Store",
+        "type": "app_store",
+        "authentication": "api_key",
+        "rate_limit": "1000/hour",
+        "description": "Direct API access (fallback)"
+      },
+      {
+        "name": "Google Play Store",
+        "type": "play_store",
+        "authentication": "oauth2",
+        "rate_limit": "10000/day",
+        "description": "Direct API access (fallback)"
+      },
+      {
+        "name": "Reddit",
+        "type": "reddit",
+        "authentication": "oauth2",
+        "rate_limit": "60/minute"
+      },
+      {
+        "name": "Twitter/X",
+        "type": "twitter",
+        "authentication": "bearer_token",
+        "rate_limit": "300/15min"
+      },
+      {
+        "name": "Web Scraping",
+        "type": "web",
+        "authentication": "none",
+        "rate_limit": "custom"
+      }
+    ],
+    "output_platforms": [
+      {
+        "name": "Slack",
+        "type": "slack",
+        "authentication": "bot_token",
+        "capabilities": ["create_threads", "send_messages", "create_channels"]
+      },
+      {
+        "name": "Jira",
+        "type": "jira",
+        "authentication": "api_token",
+        "capabilities": ["create_issues", "update_issues", "add_comments"]
+      },
+      {
+        "name": "Asana",
+        "type": "asana",
+        "authentication": "personal_access_token",
+        "capabilities": ["create_tasks", "update_tasks", "add_comments"]
+      }
+    ]
+  },
+  "configuration": {
+    "database": {
+      "type": "sqlite",
+      "path": "feedback.db",
+      "backup_enabled": true,
+      "backup_interval": "daily"
+    },
+    "processing": {
+      "batch_size": 10,
+      "concurrent_workers": 3,
+      "retry_attempts": 3,
+      "retry_delay": 5
+    },
+    "notifications": {
+      "email_enabled": false,
+      "slack_enabled": true,
+      "webhook_enabled": false
+    },
+    "security": {
+      "pii_detection": true,
+      "pii_removal": true,
+      "data_encryption": true,
+      "access_logging": true
+    }
+  },
+  "monitoring": {
+    "health_checks": [
+      {
+        "name": "database_connection",
+        "interval": 60,
+        "timeout": 10
+      },
+      {
+        "name": "api_endpoints",
+        "interval": 300,
+        "timeout": 30
+      }
+    ],
+    "metrics": [
+      {
+        "name": "feedback_processing_rate",
+        "type": "counter",
+        "description": "Number of feedback items processed per minute"
+      },
+      {
+        "name": "response_time",
+        "type": "histogram",
+        "description": "Time taken to process feedback"
+      },
+      {
+        "name": "error_rate",
+        "type": "gauge",
+        "description": "Percentage of failed processing attempts"
+      }
+    ],
+    "alerts": [
+      {
+        "name": "high_error_rate",
+        "condition": "error_rate > 5%",
+        "severity": "warning"
+      },
+      {
+        "name": "processing_backlog",
+        "condition": "unprocessed_feedback > 100",
+        "severity": "critical"
+      }
+    ]
+  }
+}
