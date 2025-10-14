@@ -19,6 +19,7 @@ from enum import Enum
 from slack_sdk.web.async_client import AsyncWebClient
 from slack_sdk.errors import SlackApiError
 from dotenv import load_dotenv
+from enhanced_message_classifier import EnhancedMessageClassifier
 
 # Load environment variables
 load_dotenv('config/env.local')
@@ -156,8 +157,7 @@ class SlackReplySystem:
             raise ValueError("Slack bot token is required. Set SLACK_BOT_TOKEN in environment or pass as parameter.")
         
         self.client = AsyncWebClient(token=self.bot_token)
-        self.sentiment_analyzer = SentimentAnalyzer()
-        self.jira_generator = JiraTicketGenerator()
+        self.classifier = EnhancedMessageClassifier()
         
         # Channel configuration
         self.target_channel_id = "C09KQHTCGFR"  # all-feedforward channel ID
@@ -165,12 +165,36 @@ class SlackReplySystem:
         
         # Track processed messages to avoid duplicate replies
         self.processed_messages = set()
+        self.processed_messages_file = "processed_messages.txt"
+        self.load_processed_messages()
         
         # Reply templates
         self.positive_reply = "Thank you for your kind words! I'm glad you found our app helpful and appreciate your feedback!"
-        self.negative_reply_template = "Thank you for your feedback! We're a customer-centric organization and truly appreciate you sharing your concern. We've logged it as system {jira_ticket}, and our team is actively working on it. You can track your ticket's progress here: https://jira.example.com/browse/{jira_ticket}."
+        self.negative_reply_template = "Thank you for your feedback! We're a customer-centric organization and truly appreciate you sharing your concern. We've logged it as {jira_ticket}, and our team is actively working on it. You can track your ticket's progress here: https://jira.example.com/browse/{jira_ticket}."
+        self.neutral_reply = "Thank you for your feedback! We appreciate you taking the time to share your thoughts with us."
         
         logger.info(f"SlackReplySystem initialized for channel {self.target_channel_name} ({self.target_channel_id})")
+    
+    def load_processed_messages(self):
+        """Load previously processed messages from file"""
+        try:
+            if os.path.exists(self.processed_messages_file):
+                with open(self.processed_messages_file, 'r') as f:
+                    for line in f:
+                        message_ts = line.strip()
+                        if message_ts:
+                            self.processed_messages.add(message_ts)
+                logger.info(f"Loaded {len(self.processed_messages)} previously processed messages")
+        except Exception as e:
+            logger.error(f"Error loading processed messages: {e}")
+    
+    def save_processed_message(self, message_ts: str):
+        """Save a processed message to file"""
+        try:
+            with open(self.processed_messages_file, 'a') as f:
+                f.write(f"{message_ts}\n")
+        except Exception as e:
+            logger.error(f"Error saving processed message: {e}")
     
     async def validate_channel_access(self) -> bool:
         """Validate that we can access the target channel"""
@@ -230,7 +254,7 @@ class SlackReplySystem:
         if message_ts in self.processed_messages:
             return False
         
-        # Skip bot messages
+        # Skip bot messages (but allow our own bot to reply to user messages)
         if message.get("bot_id") or message.get("subtype") == "bot_message":
             return False
         
@@ -238,14 +262,13 @@ class SlackReplySystem:
         if not message.get("text"):
             return False
         
-        # Skip messages that are replies (have thread_ts)
-        if message.get("thread_ts"):
-            return False
-        
         # Skip messages from our own bot
         user = message.get("user")
         if user and user.startswith("B"):  # Bot user IDs start with B
             return False
+        
+        # Allow replies to messages in threads - we want to reply to all user messages
+        # regardless of whether they're in threads or not
         
         return True
     
@@ -315,37 +338,119 @@ class SlackReplySystem:
         
         logger.info(f"Processing message from user {user}: {message_text[:100]}{'...' if len(message_text) > 100 else ''}")
         
-        # Analyze sentiment
-        sentiment, confidence, reasoning = self.sentiment_analyzer.analyze_sentiment(message_text)
-        logger.info(f"Sentiment analysis: {sentiment.value} (confidence: {confidence:.2f}) - {reasoning}")
+        # Classify the message using the enhanced classifier
+        classification = self.classifier.classify_message(message_text)
+        logger.info(f"Classification: {classification.level_1_category} -> {classification.level_2_category}")
+        logger.info(f"Sentiment: {classification.sentiment} (confidence: {classification.confidence:.2f})")
+        logger.info(f"Slack Channel: {classification.slack_channel}")
+        logger.info(f"JIRA Ticket: {classification.jira_ticket}")
         
         # Generate reply based on sentiment
         reply_text = None
-        jira_ticket = None
+        jira_ticket = classification.jira_ticket
         
-        if sentiment == Sentiment.POSITIVE or sentiment == Sentiment.NEUTRAL:
+        if classification.sentiment == "positive":
             reply_text = self.positive_reply
-            logger.info("Using positive/neutral reply template")
-        elif sentiment == Sentiment.NEGATIVE:
-            # Generate JIRA ticket for negative feedback
-            jira_ticket = self.jira_generator.get_ticket_for_message(message_ts)
+            logger.info("Using positive reply template")
+        elif classification.sentiment == "negative":
             reply_text = self.negative_reply_template.format(jira_ticket=jira_ticket)
             logger.info(f"Using negative reply template with JIRA ticket: {jira_ticket}")
+        else:  # neutral
+            reply_text = self.neutral_reply
+            logger.info("Using neutral reply template")
         
         if reply_text:
-            # Post the reply
+            # Post the reply in thread
             result = await self.post_reply(message_ts, reply_text, jira_ticket)
             
             if result.success:
                 # Mark message as processed
                 self.processed_messages.add(message_ts)
+                self.save_processed_message(message_ts)
                 logger.info(f"Successfully replied to message {message_ts}")
+                
+                # If there's a specific Slack channel for this classification, post there too
+                if classification.slack_channel and classification.slack_channel != "":
+                    await self.post_to_classification_channel(message_text, classification, user)
             else:
                 logger.error(f"Failed to reply to message {message_ts}: {result.error}")
             
             return result
         
         return None
+    
+    async def post_to_classification_channel(self, original_message: str, classification, user: str) -> bool:
+        """
+        Post the classified message to the appropriate Slack channel
+        
+        Args:
+            original_message: The original message content
+            classification: ClassificationResult object
+            user: Original user who sent the message
+            
+        Returns:
+            True if posted successfully, False otherwise
+        """
+        try:
+            # Create a formatted message for the classification channel
+            formatted_message = f"""📝 **New Feedback Classification**
+
+**Category:** {classification.level_1_category} -> {classification.level_2_category}
+**JIRA Ticket:** {classification.jira_ticket}
+**Sentiment:** {classification.sentiment.title()}
+**Original User:** <@{user}>
+
+**Original Message:**
+> {original_message}
+
+**Reasoning:** {classification.reasoning}"""
+
+            # Post to the classification channel
+            response = await self.client.chat_postMessage(
+                channel=classification.slack_channel,
+                text=formatted_message,
+                blocks=[
+                    {
+                        "type": "header",
+                        "text": {
+                            "type": "plain_text",
+                            "text": f"📝 New Feedback - {classification.jira_ticket}"
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"*Category:* {classification.level_1_category}\n*Sub-category:* {classification.level_2_category}\n*JIRA Ticket:* {classification.jira_ticket}\n*Sentiment:* {classification.sentiment.title()}"
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"*Original User:* <@{user}>\n*Source:* all-feedforward channel"
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"*Original Message:*\n```{original_message[:1000]}```"
+                        }
+                    }
+                ]
+            )
+            
+            if response.get("ok"):
+                logger.info(f"Successfully posted to classification channel: {classification.slack_channel}")
+                return True
+            else:
+                logger.error(f"Failed to post to classification channel: {response.get('error')}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Error posting to classification channel: {e}")
+            return False
     
     async def process_recent_messages(self, limit: int = 50) -> List[ReplyResult]:
         """

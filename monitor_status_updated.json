@@ -1,61 +1,61 @@
 {
   "monitor_status": "running",
-  "uptime_seconds": 324.617198,
+  "uptime_seconds": 34.92774,
   "check_interval_seconds": 60,
   "unified_database": {
-    "total_messages": 1014,
+    "total_messages": 1377,
     "by_source": {
       "app_store": 13,
       "play_store": 19,
-      "reddit": 892,
-      "slack": 85,
+      "reddit": 1178,
+      "slack": 162,
       "twitter": 5
     },
-    "recent_messages_24h": 238,
+    "recent_messages_24h": 370,
     "by_processed": {
-      "1": 1014
+      "1": 1377
     },
     "database_path": "unified_messages.db"
   },
   "services": {
     "feedback-management-unified": {
       "status": "running",
-      "last_check": "2025-10-14T19:48:02.171662+00:00",
+      "last_check": "2025-10-14T21:09:10.476406+00:00",
       "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "reddit-mcp-unified": {
       "status": "running",
-      "last_check": "2025-10-14T19:48:02.171682+00:00",
+      "last_check": "2025-10-14T21:09:13.195297+00:00",
       "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "slack-integration-unified": {
       "status": "running",
-      "last_check": "2025-10-14T19:48:24.900699+00:00",
-      "processed_count": 2,
+      "last_check": "2025-10-14T21:09:28.862963+00:00",
+      "processed_count": 1,
       "error_count": 0,
       "last_error": null
     },
     "message-processor": {
       "status": "running",
-      "last_check": "2025-10-14T19:48:35.520349+00:00",
+      "last_check": "2025-10-14T21:09:35.824590+00:00",
       "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "slack-reply-system": {
       "status": "running",
-      "last_check": "2025-10-14T19:48:35.520888+00:00",
+      "last_check": "2025-10-14T21:09:35.903413+00:00",
       "processed_count": 1,
       "error_count": 0,
       "last_error": null
     }
   },
   "summary": {
-    "total_processed": 3,
+    "total_processed": 2,
     "total_errors": 0,
     "healthy_services": 5,
     "total_services": 5
