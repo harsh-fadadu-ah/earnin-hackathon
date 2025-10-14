@@ -75,6 +75,11 @@ class UnifiedMCPMonitorUpdated:
                 name="slack-integration-unified",
                 last_check=datetime.now(timezone.utc),
                 status="stopped"
+            ),
+            "message-processor": MonitorStatus(
+                name="message-processor",
+                last_check=datetime.now(timezone.utc),
+                status="stopped"
             )
         }
         
@@ -230,6 +235,40 @@ class UnifiedMCPMonitorUpdated:
             self.services["slack-integration-unified"].last_error = str(e)
             return False
     
+    async def check_message_processor(self) -> bool:
+        """Check and run the message processor for classification and Slack posting"""
+        try:
+            from message_processor import MessageProcessor
+            
+            logger.info("Message Processor: Processing unprocessed messages...")
+            
+            # Create processor instance
+            processor = MessageProcessor(self.unified_db_path)
+            
+            # Process all unprocessed messages
+            stats = await processor.run_processing_cycle()
+            
+            if stats['total'] > 0:
+                self.services["message-processor"].processed_count += stats['successful']
+                self.services["message-processor"].error_count += stats['failed']
+                logger.info(f"Message Processor: Processed {stats['successful']}/{stats['total']} messages successfully")
+                
+                if stats['failed'] > 0:
+                    logger.warning(f"Message Processor: {stats['failed']} messages failed to process")
+            else:
+                logger.info("Message Processor: No unprocessed messages found")
+            
+            # Close processor
+            await processor.close()
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error in message processor check: {e}")
+            self.services["message-processor"].error_count += 1
+            self.services["message-processor"].last_error = str(e)
+            return False
+    
     async def run_health_checks(self):
         """Run health checks for all services"""
         logger.info("Running health checks for all MCP services (unified)...")
@@ -254,6 +293,13 @@ class UnifiedMCPMonitorUpdated:
             self.services["slack-integration-unified"].status = "running"
         else:
             self.services["slack-integration-unified"].status = "error"
+        
+        # Check message processor
+        self.services["message-processor"].last_check = datetime.now(timezone.utc)
+        if await self.check_message_processor():
+            self.services["message-processor"].status = "running"
+        else:
+            self.services["message-processor"].status = "error"
     
     def get_status_report(self) -> Dict[str, Any]:
         """Generate a comprehensive status report"""

@@ -28,6 +28,10 @@ asyncpraw>=7.7.0     # Reddit API (async version)
 slack-sdk>=3.27.0  # Slack API
 certifi>=2024.0.0  # SSL certificates
 
+# Message processing and classification
+scikit-learn>=1.4.0  # For advanced classification features
+textblob>=0.18.0     # For sentiment analysis
+
 # Async support
 # asyncio  # Built-in with Python (no need to install)
 aiohttp>=3.9.0

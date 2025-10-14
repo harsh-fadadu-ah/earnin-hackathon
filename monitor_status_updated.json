@@ -1,50 +1,56 @@
 {
   "monitor_status": "running",
-  "uptime_seconds": 118.068123,
+  "uptime_seconds": 1330.65552,
   "check_interval_seconds": 60,
   "unified_database": {
-    "total_messages": 182,
+    "total_messages": 188,
     "by_source": {
       "app_store": 13,
       "play_store": 14,
-      "reddit": 103,
-      "slack": 47,
+      "reddit": 106,
+      "slack": 50,
       "twitter": 5
     },
-    "recent_messages_24h": 126,
+    "recent_messages_24h": 131,
     "by_processed": {
-      "0": 108,
-      "1": 74
+      "1": 188
     },
     "database_path": "unified_messages.db"
   },
   "services": {
     "feedback-management-unified": {
-      "status": "running",
-      "last_check": "2025-10-14T11:45:25.913744+00:00",
+      "status": "error",
+      "last_check": "2025-10-14T12:39:18.720441+00:00",
       "processed_count": 0,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 16,
+      "last_error": "No module named 'mcp'"
     },
     "reddit-mcp-unified": {
       "status": "running",
-      "last_check": "2025-10-14T11:45:25.913768+00:00",
-      "processed_count": 0,
+      "last_check": "2025-10-14T12:39:18.723664+00:00",
+      "processed_count": 2,
       "error_count": 0,
       "last_error": null
     },
     "slack-integration-unified": {
+      "status": "error",
+      "last_check": "2025-10-14T12:39:39.738572+00:00",
+      "processed_count": 0,
+      "error_count": 16,
+      "last_error": "No module named 'mcp'"
+    },
+    "message-processor": {
       "status": "running",
-      "last_check": "2025-10-14T11:45:46.712928+00:00",
-      "processed_count": 3,
+      "last_check": "2025-10-14T12:39:39.742187+00:00",
+      "processed_count": 67,
       "error_count": 0,
       "last_error": null
     }
   },
   "summary": {
-    "total_processed": 3,
-    "total_errors": 0,
-    "healthy_services": 3,
-    "total_services": 3
+    "total_processed": 69,
+    "total_errors": 32,
+    "healthy_services": 2,
+    "total_services": 4
   }
 }

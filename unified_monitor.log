@@ -5465,3 +5465,1718 @@ See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.htm
 2025-10-14 17:20:42,516 - __main__ - INFO -   reddit-mcp: running (processed: 5, errors: 0)
 2025-10-14 17:20:42,516 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 67)
 2025-10-14 17:20:42,517 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:21:34,984 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:21:34,984 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:21:34,986 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:21:34,986 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:21:34,986 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:21:36,890 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:21:38,980 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:21:41,017 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:21:42,518 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:21:42,522 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:21:42,522 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:21:42,522 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:21:42,522 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:21:42,522 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:21:43,079 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:21:44,469 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:21:45,182 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:21:46,587 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:21:47,273 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:21:48,598 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:21:49,376 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:21:51,044 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:21:51,520 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:21:53,153 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:21:53,653 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:21:53,653 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:21:55,316 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:21:55,619 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:21:55,620 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:21:55,621 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:21:57,500 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:21:59,651 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:22:00,605 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:22:00,605 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:22:00,605 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:22:00,605 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:22:00,606 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:22:01,771 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:22:01,771 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:22:03,782 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:22:03,784 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:22:03,785 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:22:03,787 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:22:03,787 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:22:03,787 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 68)
+2025-10-14 17:22:03,787 - __main__ - INFO -   reddit-mcp: running (processed: 5, errors: 0)
+2025-10-14 17:22:03,787 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 68)
+2025-10-14 17:22:03,788 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:23:00,607 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:23:00,607 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:23:00,608 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:23:00,608 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:23:00,608 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:23:02,503 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:23:03,789 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:23:03,797 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:23:03,797 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:23:03,798 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:23:03,798 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:23:03,799 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:23:04,616 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:23:05,646 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:23:06,672 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:23:07,709 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:23:09,219 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:23:09,727 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:23:11,243 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:23:11,801 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:23:13,239 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:23:13,917 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:23:15,342 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:23:15,977 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:23:17,479 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:23:18,143 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:23:19,647 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:23:19,648 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:23:20,617 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:23:21,674 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:23:21,676 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:23:21,676 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:23:22,785 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:23:22,785 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:23:24,765 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:23:24,768 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 10 new posts
+2025-10-14 17:23:24,769 - __main__ - INFO - Reddit MCP: Found 10 new Earnin-related posts
+2025-10-14 17:23:24,774 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:23:24,774 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:23:24,774 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 69)
+2025-10-14 17:23:24,774 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:23:24,774 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 69)
+2025-10-14 17:23:24,775 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:23:26,487 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:23:26,487 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:23:26,487 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:23:26,488 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:23:26,488 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:24:24,776 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:24:24,785 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:24:24,785 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:24:24,786 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:24:24,786 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:24:24,786 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:24:26,489 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:24:26,489 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:24:26,490 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:24:26,490 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:24:26,490 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:24:26,691 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:24:28,354 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:24:28,845 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:24:30,481 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:24:30,867 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:24:32,606 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:24:32,933 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:24:34,654 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:24:35,006 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:24:36,655 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:24:37,119 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:24:38,854 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:24:39,165 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:24:40,966 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:24:41,258 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:24:43,457 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:24:43,457 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:24:43,457 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:24:45,492 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:24:45,494 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:24:45,494 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:24:45,498 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:24:45,498 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:24:45,498 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 70)
+2025-10-14 17:24:45,499 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:24:45,499 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 70)
+2025-10-14 17:24:45,500 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:24:45,562 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:24:45,563 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:24:47,557 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:24:47,558 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:24:47,558 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:24:52,567 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:24:52,567 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:24:52,567 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:24:52,567 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:24:52,568 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:25:45,501 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:25:45,506 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:25:45,506 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:25:45,507 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:25:45,507 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:25:45,507 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:25:47,380 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:25:49,484 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:25:51,525 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:25:52,569 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:25:52,569 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:25:52,570 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:25:52,570 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:25:52,570 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:25:53,596 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:25:54,418 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:25:55,607 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:25:56,491 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:25:57,650 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:25:58,517 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:25:59,783 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:26:00,572 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:26:02,163 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:26:02,656 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:26:04,307 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:26:04,308 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:26:04,775 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:26:06,339 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:26:06,341 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:26:06,341 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:26:06,343 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:26:06,343 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:26:06,343 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 71)
+2025-10-14 17:26:06,343 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:26:06,343 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 71)
+2025-10-14 17:26:06,344 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:26:06,860 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:26:08,963 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:26:11,032 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:26:11,033 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:26:13,038 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:26:13,039 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:26:13,039 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:26:17,984 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:26:17,985 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:26:17,985 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:26:17,985 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:26:17,987 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:27:06,345 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:27:06,348 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:27:06,348 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:27:06,349 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:27:06,349 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:27:06,349 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:27:08,223 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:27:10,290 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:27:12,321 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:27:14,326 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:27:16,372 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:27:17,988 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:27:17,988 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:27:17,988 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:27:17,988 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:27:17,988 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:27:18,463 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:27:19,853 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:27:20,541 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:27:21,952 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:27:22,717 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:27:24,086 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:27:24,796 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:27:24,797 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:27:26,157 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:27:26,807 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:27:26,809 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:27:26,809 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:27:26,811 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:27:26,811 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:27:26,811 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 72)
+2025-10-14 17:27:26,811 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:27:26,811 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 72)
+2025-10-14 17:27:26,812 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:27:28,361 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:27:30,452 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:27:32,779 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:27:34,923 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:27:37,062 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:27:37,063 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:27:39,050 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:27:39,052 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:27:39,052 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:27:44,307 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:27:44,307 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:27:44,307 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:27:44,307 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:27:44,308 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:28:26,813 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:28:26,817 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:28:26,817 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:28:26,817 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:28:26,817 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:28:26,817 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:28:28,786 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:28:31,047 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:28:33,117 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:28:35,216 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:28:37,248 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:28:39,347 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:28:41,491 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:28:43,574 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:28:44,310 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:28:44,310 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:28:44,311 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:28:44,311 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:28:44,311 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:28:45,649 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:28:45,651 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:28:46,153 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:28:47,663 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:28:47,665 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:28:47,665 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:28:47,669 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:28:47,669 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:28:47,669 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 73)
+2025-10-14 17:28:47,669 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:28:47,669 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 73)
+2025-10-14 17:28:47,670 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:28:48,329 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:28:50,598 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:28:52,647 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:28:54,714 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:28:56,772 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:28:58,863 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:29:00,953 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:29:03,021 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:29:03,022 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:29:04,995 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:29:04,998 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:29:04,999 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:29:10,025 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:29:10,026 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:29:10,026 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:29:10,026 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:29:10,027 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:29:47,671 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:29:47,676 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:29:47,676 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:29:47,677 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:29:47,677 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:29:47,677 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:29:49,496 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:29:51,593 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:29:53,653 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:29:55,710 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:29:57,757 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:29:59,821 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:30:02,038 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:30:04,241 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:30:06,385 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:30:06,387 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:30:08,541 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:30:08,545 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:30:08,545 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:30:08,550 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:30:08,550 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:30:08,550 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 74)
+2025-10-14 17:30:08,550 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:30:08,550 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 74)
+2025-10-14 17:30:08,551 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:30:10,028 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:30:10,029 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:30:10,030 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:30:10,030 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:30:10,030 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:30:11,979 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:30:14,055 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:30:16,206 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:30:18,349 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:30:20,446 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:30:22,604 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:30:24,826 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:30:26,990 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:30:29,156 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:30:29,158 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:30:31,501 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:30:31,504 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:30:31,504 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:30:36,688 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:30:36,688 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:30:36,688 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:30:36,688 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:30:36,689 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:31:08,552 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:31:08,560 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:31:08,560 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:31:08,561 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:31:08,561 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:31:08,561 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:31:10,562 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:31:12,770 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:31:15,914 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:31:18,059 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:31:20,187 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:31:22,482 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:31:24,631 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:31:26,708 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:31:28,784 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:31:28,785 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:31:44,716 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:31:44,721 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:31:44,721 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:31:44,725 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:31:44,725 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:31:44,725 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 75)
+2025-10-14 17:31:44,725 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:31:44,726 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 75)
+2025-10-14 17:31:44,726 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:31:48,484 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:31:48,485 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:31:48,487 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:31:48,487 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:31:48,488 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:31:50,372 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:31:52,463 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:31:54,500 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:31:56,567 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:31:58,628 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:32:00,731 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:32:02,871 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:32:05,148 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:32:07,411 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:32:07,416 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:32:09,498 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:32:09,502 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:32:09,502 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:32:14,791 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:32:14,792 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:32:14,793 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:32:14,793 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:32:14,794 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:32:44,727 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:32:44,736 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:32:44,736 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:32:44,738 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:32:44,738 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:32:44,738 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:32:46,624 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:32:48,722 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:32:50,765 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:32:53,354 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:32:55,448 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:32:57,531 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:33:00,230 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:33:02,347 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:33:04,458 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:33:04,460 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:33:06,461 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:33:06,464 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:33:06,464 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:33:06,466 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:33:06,466 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:33:06,466 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 76)
+2025-10-14 17:33:06,466 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:33:06,466 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 76)
+2025-10-14 17:33:06,467 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:33:14,795 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:33:14,795 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:33:14,796 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:33:14,796 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:33:14,796 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:33:16,704 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:33:18,830 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:33:20,873 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:33:22,945 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:33:25,034 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:33:27,141 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:33:29,285 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:33:31,403 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:33:33,486 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:33:33,487 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:33:35,479 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:33:35,483 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:33:35,483 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:33:40,307 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:33:40,307 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:33:40,307 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:33:40,307 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:33:40,308 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:34:06,469 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:34:06,474 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:34:06,474 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:34:06,475 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:34:06,475 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:34:06,475 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:34:08,416 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:34:12,092 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:34:14,150 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:34:16,307 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:34:18,393 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:34:20,533 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:34:22,627 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:34:24,745 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:34:26,827 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:34:26,830 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:34:28,808 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:34:28,812 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:34:28,812 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:34:28,817 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:34:28,818 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:34:28,818 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 77)
+2025-10-14 17:34:28,818 - __main__ - INFO -   reddit-mcp: running (processed: 15, errors: 0)
+2025-10-14 17:34:28,818 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 77)
+2025-10-14 17:34:28,819 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:34:40,309 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:34:40,309 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:34:40,310 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:34:40,310 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:34:40,311 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:34:42,198 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:34:44,277 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:34:46,318 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:34:48,450 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:34:50,523 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:34:52,573 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:34:54,673 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:34:57,005 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:34:59,097 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:34:59,099 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:35:01,123 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:35:01,126 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:35:01,127 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:35:06,181 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:35:06,181 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:35:06,182 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:35:06,182 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:35:06,184 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:35:28,820 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:35:28,829 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:35:28,829 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:35:28,831 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:35:28,831 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:35:28,831 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:35:30,704 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:35:32,811 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:35:34,906 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:35:36,919 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:35:38,951 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:35:40,997 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:35:43,147 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:35:45,637 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:35:47,753 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:35:47,755 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:35:49,759 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:35:49,766 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 17:35:49,766 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 17:35:49,770 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:35:49,770 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:35:49,771 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 78)
+2025-10-14 17:35:49,771 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:35:49,771 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 78)
+2025-10-14 17:35:49,771 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:36:06,184 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:36:06,184 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:36:06,186 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:36:06,187 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:36:06,187 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:36:08,101 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:36:10,260 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:36:12,476 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:36:14,522 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:36:16,860 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:36:19,838 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:36:21,924 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:36:24,036 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:36:26,098 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:36:26,100 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:36:28,137 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:36:28,142 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:36:28,142 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:36:33,335 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:36:33,335 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:36:33,335 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:36:33,336 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:36:33,337 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:36:49,772 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:36:49,779 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:36:49,780 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:36:49,780 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:36:49,780 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:36:49,780 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:36:51,759 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:36:53,949 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:36:56,020 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:36:58,209 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:37:00,294 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:37:02,402 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:37:04,587 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:37:06,914 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:37:09,088 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:37:09,090 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:37:11,114 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:37:11,117 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:37:11,117 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:37:11,123 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:37:11,123 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:37:11,123 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 79)
+2025-10-14 17:37:11,123 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:37:11,123 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 79)
+2025-10-14 17:37:11,124 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:37:33,338 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:37:33,339 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:37:33,341 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:37:33,341 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:37:33,341 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:37:35,167 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:37:37,265 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:37:39,311 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:37:41,423 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:37:43,718 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:37:45,841 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:37:47,972 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:37:50,119 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:37:52,293 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:37:52,294 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:37:54,272 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:37:54,277 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:37:54,277 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:37:59,491 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:37:59,491 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:37:59,492 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:37:59,492 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:37:59,493 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:38:11,125 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:38:11,133 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:38:11,133 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:38:11,134 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:38:11,135 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:38:11,135 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:38:13,026 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:38:15,254 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:38:17,305 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:38:19,344 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:38:21,456 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:38:23,553 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:38:25,634 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:38:27,733 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:38:29,857 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:38:29,859 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:38:31,831 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:38:31,833 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:38:31,833 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:38:31,836 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:38:31,836 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:38:31,836 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 80)
+2025-10-14 17:38:31,836 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:38:31,836 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 80)
+2025-10-14 17:38:31,837 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:38:59,494 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:38:59,494 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:38:59,495 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:38:59,495 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:38:59,495 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:39:01,411 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:39:03,595 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:39:05,756 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:39:07,852 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:39:09,957 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:39:12,027 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:39:14,121 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:39:16,447 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:39:18,796 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:39:18,798 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:39:20,864 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:39:20,867 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:39:20,867 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:39:25,823 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:39:25,823 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:39:25,823 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:39:25,823 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:39:25,824 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:39:31,838 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:39:31,842 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:39:31,842 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:39:31,843 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:39:31,843 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:39:31,843 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:39:33,702 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:39:35,798 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:39:37,887 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:39:39,974 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:39:42,006 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:39:44,095 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:39:46,342 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:39:48,412 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:39:50,594 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:39:50,595 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:39:52,562 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:39:52,564 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:39:52,564 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:39:52,568 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:39:52,568 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:39:52,569 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 81)
+2025-10-14 17:39:52,569 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:39:52,569 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 81)
+2025-10-14 17:39:52,570 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:40:25,825 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:40:25,825 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:40:25,826 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:40:25,826 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:40:25,826 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:40:27,888 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:40:30,052 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:40:32,096 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:40:34,141 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:40:36,418 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:40:38,512 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:40:41,037 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:40:43,383 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:40:45,715 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:40:45,716 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:40:47,704 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:40:47,707 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:40:47,707 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:40:52,571 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:40:52,575 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:40:52,575 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:40:52,575 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:40:52,575 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:40:52,575 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:40:53,289 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:40:53,289 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:40:53,289 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:40:53,289 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:40:53,291 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:40:54,439 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:40:56,772 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:40:58,838 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:41:01,053 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:41:03,111 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:41:05,367 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:41:07,610 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:41:10,043 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:41:12,105 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:41:12,106 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:41:14,112 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:41:14,114 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:41:14,114 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:41:14,117 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:41:14,117 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:41:14,117 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 82)
+2025-10-14 17:41:14,117 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:41:14,117 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 82)
+2025-10-14 17:41:14,117 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:41:53,292 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:41:53,293 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:41:53,294 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:41:53,294 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:41:53,294 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:41:55,377 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:41:57,455 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:41:59,793 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:42:01,827 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:42:04,019 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:42:06,143 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:42:08,403 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:42:10,509 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:42:12,627 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:42:12,629 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:42:14,119 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:42:14,131 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:42:14,131 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:42:14,132 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:42:14,132 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:42:14,132 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:42:14,613 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:42:14,617 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:42:14,617 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:42:15,963 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:42:18,316 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:42:19,562 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:42:19,562 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:42:19,562 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:42:19,562 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:42:19,563 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:42:20,742 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:42:22,850 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:42:25,167 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:42:27,576 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:42:29,892 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:42:32,399 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:42:34,572 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:42:34,574 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:42:36,573 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:42:36,578 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:42:36,578 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:42:36,584 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:42:36,584 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:42:36,584 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 83)
+2025-10-14 17:42:36,584 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:42:36,584 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 83)
+2025-10-14 17:42:36,585 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:43:19,565 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:43:19,566 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:43:19,567 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:43:19,567 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:43:19,567 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:43:21,457 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:43:24,017 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:43:26,123 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:43:28,422 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:43:30,686 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:43:32,785 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:43:34,900 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:43:36,586 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:43:36,594 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:43:36,594 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:43:36,595 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:43:36,595 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:43:36,596 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:43:37,176 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:43:38,458 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:43:39,222 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:43:39,225 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:43:40,861 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:43:41,259 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:43:41,261 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:43:41,262 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:43:42,882 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:43:44,931 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:43:46,299 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:43:46,299 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:43:46,299 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:43:46,300 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:43:46,302 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:43:46,947 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:43:48,959 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:43:51,104 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:43:53,366 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:43:55,454 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:43:55,455 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:43:58,261 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:43:58,262 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:43:58,262 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:43:58,264 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:43:58,264 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:43:58,264 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 84)
+2025-10-14 17:43:58,264 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:43:58,264 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 84)
+2025-10-14 17:43:58,265 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:44:46,303 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:44:46,304 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:44:46,305 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:44:46,306 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:44:46,306 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:44:48,503 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:44:50,852 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:44:52,887 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:44:55,219 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:44:57,509 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:44:58,266 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:44:58,275 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:44:58,276 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:44:58,276 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:44:58,277 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:44:58,277 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:44:59,628 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:45:00,378 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:45:01,758 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:45:02,664 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:45:03,861 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:45:04,724 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:45:06,141 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:45:06,144 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:45:06,767 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:45:08,146 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:45:08,150 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:45:08,150 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:45:09,007 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:45:11,110 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:45:13,272 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:45:13,273 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:45:13,273 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:45:13,274 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:45:13,278 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:45:13,298 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:45:15,373 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:45:17,450 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:45:17,450 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:45:19,425 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:45:19,427 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:45:19,427 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:45:19,432 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:45:19,432 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:45:19,432 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 85)
+2025-10-14 17:45:19,432 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:45:19,432 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 85)
+2025-10-14 17:45:19,433 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:46:13,279 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:46:13,280 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:46:13,280 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:46:13,280 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:46:13,280 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:46:15,194 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:46:17,362 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:46:19,434 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:46:19,440 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:46:19,440 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:46:19,442 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:46:19,442 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:46:19,442 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:46:19,749 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:46:21,636 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:46:21,796 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:46:23,937 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:46:24,508 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:46:25,965 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:46:26,635 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:46:28,050 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:46:28,705 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:46:30,164 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:46:30,766 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:46:32,533 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:46:33,132 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:46:33,133 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:46:34,933 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:46:35,151 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:46:35,154 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:46:35,155 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:46:37,140 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:46:39,729 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:46:39,731 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:46:40,524 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:46:40,524 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:46:40,524 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:46:40,524 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:46:40,525 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:46:41,982 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:46:41,984 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:46:41,984 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:46:41,987 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:46:41,987 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:46:41,987 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 86)
+2025-10-14 17:46:41,987 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:46:41,987 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 86)
+2025-10-14 17:46:41,989 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:47:40,528 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:47:40,529 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:47:40,530 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:47:40,530 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:47:40,530 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:47:41,991 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:47:41,999 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:47:41,999 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:47:42,000 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:47:42,000 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:47:42,000 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:47:42,399 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:47:43,840 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:47:44,520 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:47:45,963 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:47:46,567 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:47:48,115 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:47:48,665 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:47:50,381 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:47:51,284 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:47:52,950 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:47:53,446 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:47:55,012 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:47:55,569 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:47:57,255 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:47:57,771 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:47:59,709 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:48:00,015 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:48:00,015 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:48:01,830 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:48:01,831 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:48:02,010 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:48:02,013 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:48:02,013 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:48:03,837 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:48:03,839 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:48:03,839 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:48:03,841 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:48:03,841 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:48:03,841 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 87)
+2025-10-14 17:48:03,841 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:48:03,841 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 87)
+2025-10-14 17:48:03,842 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:48:06,994 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:48:06,995 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:48:06,995 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:48:06,995 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:48:06,996 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:49:03,843 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:49:03,852 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:49:03,853 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:49:03,854 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:49:03,854 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:49:03,854 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:49:05,711 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:49:06,998 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:49:06,998 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:49:06,999 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:49:07,000 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:49:07,000 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:49:07,851 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:49:08,836 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:49:10,418 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:49:10,902 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:49:12,471 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:49:12,973 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:49:14,518 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:49:15,038 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:49:16,717 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:49:17,043 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:49:19,074 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:49:19,993 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:49:21,191 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:49:22,073 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:49:23,293 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:49:24,137 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:49:24,139 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:49:25,324 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:49:25,325 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:49:26,123 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:49:26,127 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:49:26,127 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:49:26,129 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:49:26,129 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:49:26,129 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 88)
+2025-10-14 17:49:26,129 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:49:26,129 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 88)
+2025-10-14 17:49:26,130 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:49:27,243 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:49:27,247 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:49:27,247 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:49:32,628 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:49:32,628 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:49:32,629 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:49:32,629 - __main__ - INFO -   slack-integration: running (processed: 59, errors: 1)
+2025-10-14 17:49:32,630 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:50:26,131 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:50:26,139 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:50:26,140 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:50:26,140 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:50:26,141 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:50:26,141 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:50:28,053 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:50:30,345 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:50:32,413 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:50:32,631 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:50:32,631 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:50:32,631 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:50:32,631 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:50:32,631 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:50:34,518 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:50:34,575 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:50:36,625 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:50:36,651 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:50:38,643 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:50:38,712 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:50:40,794 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:50:40,825 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:50:42,903 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:50:43,151 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:50:45,007 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:50:45,225 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:50:45,226 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:50:47,217 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:50:47,282 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:50:47,283 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:50:47,283 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:50:47,286 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:50:47,286 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:50:47,286 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 89)
+2025-10-14 17:50:47,286 - __main__ - INFO -   reddit-mcp: running (processed: 16, errors: 0)
+2025-10-14 17:50:47,286 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 89)
+2025-10-14 17:50:47,287 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:50:49,352 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:50:51,423 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:50:51,424 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:50:53,417 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:50:53,419 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:50:53,419 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:50:59,214 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: My bank connection is healthy still i am not able to get the earning. Very bad app. Do not use this....
+2025-10-14 17:50:59,214 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760444434.308819_U09L2J0Q153
+2025-10-14 17:50:59,219 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760444434.308819_U09L2J0Q153
+2025-10-14 17:50:59,219 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 17:50:59,219 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 17:50:59,219 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:50:59,219 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:50:59,219 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:50:59,219 - __main__ - INFO -   slack-integration: running (processed: 60, errors: 1)
+2025-10-14 17:50:59,220 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:51:47,287 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:51:47,291 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:51:47,291 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:51:47,292 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:51:47,292 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:51:47,292 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:51:49,218 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:51:51,360 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:51:53,430 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:51:55,432 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:51:57,528 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:51:59,222 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:51:59,223 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:51:59,224 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:51:59,224 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:51:59,224 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:51:59,588 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:52:01,039 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:52:01,707 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:52:03,146 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:52:03,856 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:52:05,186 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:52:06,008 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:52:06,009 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:52:07,209 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:52:08,010 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:52:08,016 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 17:52:08,016 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 17:52:08,021 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:52:08,021 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:52:08,021 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 90)
+2025-10-14 17:52:08,021 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:52:08,021 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 90)
+2025-10-14 17:52:08,022 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:52:09,256 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:52:11,324 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:52:13,510 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:52:15,720 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:52:17,795 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:52:17,797 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:52:20,304 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:52:20,308 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:52:20,308 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:52:25,304 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: My bank connection is healthy still i am not able to get the earning. Very bad app. Do not use this....
+2025-10-14 17:52:25,305 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760444505.553679_U09L2J0Q153
+2025-10-14 17:52:25,309 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760444505.553679_U09L2J0Q153
+2025-10-14 17:52:25,309 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 17:52:25,309 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 17:52:25,310 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:52:25,310 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:52:25,310 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:52:25,310 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:52:25,311 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:53:08,024 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:53:08,035 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:53:08,035 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:53:08,036 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:53:08,036 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:53:08,036 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:53:09,913 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:53:12,055 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:53:14,144 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:53:16,274 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:53:18,433 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:53:20,539 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:53:22,677 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:53:25,112 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:53:25,312 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:53:25,313 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:53:25,314 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:53:25,314 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:53:25,314 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:53:27,172 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:53:27,174 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:53:27,184 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:53:29,160 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:53:29,164 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:53:29,164 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:53:29,169 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:53:29,169 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:53:29,169 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 91)
+2025-10-14 17:53:29,169 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:53:29,169 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 91)
+2025-10-14 17:53:29,170 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:53:29,286 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:53:31,335 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:53:33,407 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:53:35,443 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:53:37,519 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:53:39,615 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:53:41,755 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:53:43,827 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:53:43,829 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:53:45,806 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:53:45,810 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:53:45,810 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:53:51,729 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:53:51,729 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:53:51,729 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:53:51,729 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:53:51,731 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:54:29,171 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:54:29,179 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:54:29,179 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:54:29,181 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:54:29,181 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:54:29,181 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:54:31,031 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:54:33,098 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:54:35,160 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:54:37,202 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:54:39,300 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:54:41,489 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:54:43,572 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:54:45,670 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:54:48,367 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:54:48,369 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:54:50,297 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:54:50,299 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:54:50,299 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:54:50,301 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:54:50,301 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:54:50,301 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 92)
+2025-10-14 17:54:50,301 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:54:50,301 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 92)
+2025-10-14 17:54:50,302 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:54:51,732 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:54:51,732 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:54:51,733 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:54:51,734 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:54:51,734 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:54:53,684 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:54:55,720 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:54:57,766 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:54:59,939 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:55:01,988 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:55:04,099 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:55:06,244 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:55:08,361 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:55:10,409 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:55:10,411 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:55:12,449 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:55:12,453 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:55:12,453 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:55:17,410 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:55:17,411 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:55:17,411 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:55:17,411 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:55:17,412 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:55:50,303 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:55:50,311 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:55:50,311 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:55:50,312 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:55:50,312 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:55:50,312 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:55:52,285 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:55:54,380 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:55:56,481 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:55:58,599 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:56:00,706 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:56:03,070 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:56:05,195 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:56:07,444 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:56:09,731 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:56:09,733 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:56:11,746 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:56:11,749 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:56:11,750 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:56:11,755 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:56:11,755 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:56:11,755 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 93)
+2025-10-14 17:56:11,755 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:56:11,755 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 93)
+2025-10-14 17:56:11,756 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:56:17,413 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:56:17,414 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:56:17,415 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:56:17,415 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:56:17,415 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:56:19,351 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:56:21,477 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:56:23,513 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:56:25,601 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:56:27,699 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:56:29,830 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:56:31,982 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:56:34,346 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:56:36,579 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:56:36,582 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:56:38,532 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:56:38,535 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:56:38,536 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:56:45,320 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:56:45,320 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:56:45,321 - __main__ - INFO -   reddit-mcp: running (processed: 95, errors: 0)
+2025-10-14 17:56:45,321 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:56:45,324 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:57:11,758 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:57:11,763 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:57:11,763 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:57:11,764 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:57:11,764 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:57:11,764 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:57:13,598 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:57:15,833 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:57:17,936 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:57:19,987 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:57:21,989 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:57:24,204 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:57:26,476 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:57:28,610 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:57:30,799 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:57:30,802 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:57:32,800 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:57:32,807 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:57:32,807 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:57:32,814 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:57:32,814 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:57:32,814 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 94)
+2025-10-14 17:57:32,814 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:57:32,814 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 94)
+2025-10-14 17:57:32,816 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:57:45,327 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:57:45,329 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:57:45,331 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:57:45,331 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:57:45,331 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:57:47,222 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:57:49,313 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:57:51,454 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:57:53,611 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:57:55,815 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:57:57,939 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:58:00,289 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:58:02,443 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:58:04,627 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:58:04,631 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:58:06,943 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:58:06,951 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 1 new posts
+2025-10-14 17:58:06,951 - __main__ - INFO - Reddit MCP: Found 1 new Earnin-related posts
+2025-10-14 17:58:13,025 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:58:13,025 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:58:13,025 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 17:58:13,026 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:58:13,028 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:58:32,817 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:58:32,823 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:58:32,823 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:58:32,824 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:58:32,824 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:58:32,824 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:58:34,670 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:58:36,960 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:58:39,016 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:58:41,064 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:58:43,158 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:58:45,209 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:58:47,411 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:58:49,493 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:58:51,649 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:58:51,652 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:58:53,699 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:58:53,703 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:58:53,704 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:58:53,708 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 17:58:53,708 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 17:58:53,708 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 95)
+2025-10-14 17:58:53,708 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 17:58:53,708 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 95)
+2025-10-14 17:58:53,710 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:59:13,029 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:59:13,029 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:59:13,031 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:59:13,031 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:59:13,031 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:59:15,012 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:59:17,121 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:59:19,271 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 17:59:21,348 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 17:59:23,409 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 17:59:25,602 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 17:59:27,738 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 17:59:29,899 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 17:59:32,021 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 17:59:32,023 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 17:59:34,069 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 17:59:34,073 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 17:59:34,074 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 17:59:39,342 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 17:59:39,342 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 17:59:39,342 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 17:59:39,342 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 17:59:39,344 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 17:59:53,711 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 17:59:53,721 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 17:59:53,721 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 17:59:53,722 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 17:59:53,723 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 17:59:53,723 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 17:59:55,579 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 17:59:57,658 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 17:59:59,902 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:00:02,553 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:00:04,845 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:00:06,916 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:00:09,049 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:00:11,411 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:00:13,622 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:00:13,624 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:00:15,977 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:00:15,980 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:00:15,980 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:00:15,986 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:00:15,987 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:00:15,987 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 96)
+2025-10-14 18:00:15,987 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:00:15,987 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 96)
+2025-10-14 18:00:15,989 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:00:39,345 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:00:39,346 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:00:39,348 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:00:39,349 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:00:39,349 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:00:41,194 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:00:43,372 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:00:45,455 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:00:47,745 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:00:49,929 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:00:52,137 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:00:54,269 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:00:56,550 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:00:58,632 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:00:58,634 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:01:00,640 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:01:00,647 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:01:00,647 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:01:06,098 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:01:06,099 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:01:06,099 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:01:06,099 - __main__ - INFO -   slack-integration: running (processed: 61, errors: 1)
+2025-10-14 18:01:06,100 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:01:15,990 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:01:15,995 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:01:15,995 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:01:15,996 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:01:15,996 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:01:15,996 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:01:18,092 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:01:20,231 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:01:22,463 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:01:24,572 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:01:26,932 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:01:29,308 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:01:31,518 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:01:33,654 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:01:35,836 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:01:35,839 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:01:37,927 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:01:37,933 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:01:37,934 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:01:37,939 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:01:37,939 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:01:37,939 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 97)
+2025-10-14 18:01:37,939 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:01:37,939 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 97)
+2025-10-14 18:01:37,941 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:02:06,113 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:02:06,115 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:02:06,118 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:02:06,119 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:02:06,119 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:02:08,039 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:02:10,394 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:02:12,620 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:02:14,770 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:02:16,966 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:02:19,289 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:02:21,706 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:02:24,090 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:02:26,471 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:02:26,472 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:02:28,641 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:02:28,647 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:02:28,647 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:02:33,844 - feedback_mcp_server - INFO - 📨 Processing Slack message from user U09L2J0Q153: My cashout is healthy still i am not able to get the earning. Very bad app. Do not use this.
+Star : ...
+2025-10-14 18:02:33,845 - feedback_mcp_server - INFO - ✅ Parsed as general Slack message: slack_general_1760445140.737999_U09L2J0Q153
+2025-10-14 18:02:33,853 - feedback_mcp_server - INFO - Auto-processed new review: slack_general_1760445140.737999_U09L2J0Q153
+2025-10-14 18:02:33,853 - feedback_mcp_server - INFO - Auto-processed 1 new reviews
+2025-10-14 18:02:33,853 - __main__ - INFO - Slack integration: Processed 1 new messages
+2025-10-14 18:02:33,854 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:02:33,854 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:02:33,854 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:02:33,854 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:02:33,856 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:02:37,966 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:02:37,970 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:02:37,970 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:02:37,970 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:02:37,970 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:02:37,970 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:02:39,812 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:02:41,913 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:02:43,995 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:02:46,084 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:02:48,177 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:02:50,268 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:02:53,223 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:02:55,474 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:02:57,649 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:02:57,654 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:02:59,737 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:02:59,741 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:02:59,741 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:02:59,745 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:02:59,745 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:02:59,745 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 98)
+2025-10-14 18:02:59,745 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:02:59,745 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 98)
+2025-10-14 18:02:59,746 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:03:33,860 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:03:33,860 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:03:33,861 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:03:33,861 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:03:33,861 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:03:35,749 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:03:37,881 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:03:39,937 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:03:42,053 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:03:44,113 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:03:46,205 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:03:48,338 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:03:50,520 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:03:53,165 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:03:53,170 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:03:55,205 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:03:55,208 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:03:55,209 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:03:59,748 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:03:59,753 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:03:59,753 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:03:59,754 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:03:59,754 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:03:59,754 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:04:00,478 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:04:00,478 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:04:00,478 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:04:00,478 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:04:00,479 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:04:01,657 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:04:03,841 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:04:07,588 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:04:09,668 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:04:11,729 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:04:13,842 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:04:15,959 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:04:18,025 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:04:20,085 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:04:20,086 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:04:22,153 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:04:22,158 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:04:22,158 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:04:22,163 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:04:22,164 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:04:22,164 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 99)
+2025-10-14 18:04:22,164 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:04:22,164 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 99)
+2025-10-14 18:04:22,165 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:05:00,480 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:05:00,482 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:05:00,484 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:05:00,484 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:05:00,484 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:05:02,412 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:05:04,539 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:05:06,603 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:05:08,729 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:05:10,766 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:05:12,822 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:05:14,932 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:05:17,060 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:05:19,206 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:05:19,209 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:05:21,194 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:05:21,198 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:05:21,199 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:05:22,167 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:05:22,178 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:05:22,178 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:05:22,179 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:05:22,179 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:05:22,179 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:05:24,063 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:05:26,217 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:05:26,515 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:05:26,515 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:05:26,515 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:05:26,515 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:05:26,516 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:05:28,278 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:05:30,346 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:05:32,447 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:05:34,549 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:05:36,727 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:05:38,844 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:05:40,934 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:05:40,937 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:05:42,946 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:05:42,951 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:05:42,952 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:05:42,958 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:05:42,958 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:05:42,959 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 100)
+2025-10-14 18:05:42,959 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:05:42,959 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 100)
+2025-10-14 18:05:42,961 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:06:26,516 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:06:26,516 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:06:26,517 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:06:26,517 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:06:26,517 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:06:28,437 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:06:30,657 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:06:32,771 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:06:34,835 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:06:36,914 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:06:39,020 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:06:41,537 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:06:42,962 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:06:42,968 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:06:42,968 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:06:42,969 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:06:42,969 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:06:42,969 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:06:43,660 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:06:44,857 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:06:45,753 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:06:45,756 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:06:46,929 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:06:47,754 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:06:47,760 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:06:47,760 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:06:48,976 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:06:51,031 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:06:53,003 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:06:53,003 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:06:53,004 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:06:53,004 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:06:53,005 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:06:53,206 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:06:55,253 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:06:57,325 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:06:59,460 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:07:01,649 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:07:01,652 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:07:03,661 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:07:03,665 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:07:03,665 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:07:03,671 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:07:03,671 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:07:03,671 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 101)
+2025-10-14 18:07:03,671 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:07:03,671 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 101)
+2025-10-14 18:07:03,673 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:07:53,006 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:07:53,007 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:07:53,008 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:07:53,008 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:07:53,008 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:07:54,937 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:07:57,127 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:07:59,734 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:08:01,817 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:08:03,675 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:08:03,679 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:08:03,679 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:08:03,680 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:08:03,680 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:08:03,680 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:08:04,021 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:08:05,547 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:08:06,112 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:08:07,686 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:08:08,251 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:08:09,731 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:08:10,357 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:08:11,751 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:08:12,448 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:08:12,453 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:08:13,826 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:08:14,427 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:08:14,429 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:08:14,430 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:08:15,855 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:08:17,951 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:08:19,739 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:08:19,740 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:08:19,740 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:08:19,740 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:08:19,742 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:08:20,011 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:08:22,094 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:08:22,096 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:08:24,097 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:08:24,100 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:08:24,101 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:08:24,106 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:08:24,106 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:08:24,106 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 102)
+2025-10-14 18:08:24,106 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:08:24,106 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 102)
+2025-10-14 18:08:24,108 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:09:19,743 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:09:19,744 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:09:19,745 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:09:19,745 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:09:19,745 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:09:21,595 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:09:23,782 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:09:24,109 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:09:24,114 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:09:24,115 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:09:24,116 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:09:24,116 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:09:24,116 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:09:25,981 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:09:26,060 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:09:28,163 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:09:28,227 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:09:30,286 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:09:30,296 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:09:32,391 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:09:32,391 - reddit_monitor_ssl_fixed - INFO - r/EarninBoost: 10 posts found
+2025-10-14 18:09:34,424 - reddit_monitor_ssl_fixed - INFO - r/cashadvanceapps: 10 posts found
+2025-10-14 18:09:34,501 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:09:36,501 - reddit_monitor_ssl_fixed - INFO - r/personalfinance: 10 posts found
+2025-10-14 18:09:36,591 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:09:38,653 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:09:38,655 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:09:38,655 - reddit_monitor_ssl_fixed - INFO - r/EarningOnline: 10 posts found
+2025-10-14 18:09:40,656 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:09:40,659 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:09:40,659 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:09:40,775 - reddit_monitor_ssl_fixed - INFO - r/beermoney: 10 posts found
+2025-10-14 18:09:42,963 - reddit_monitor_ssl_fixed - INFO - r/workonline: 10 posts found
+2025-10-14 18:09:42,965 - reddit_monitor_ssl_fixed - INFO - Searching for 'earnin' posts across all subreddits...
+2025-10-14 18:09:44,982 - reddit_monitor_ssl_fixed - INFO - Search results: 10 posts found
+2025-10-14 18:09:44,984 - reddit_monitor_ssl_fixed - INFO - Fetch completed: 90 total posts, 0 new posts
+2025-10-14 18:09:44,985 - __main__ - INFO - Reddit MCP: No new Earnin-related posts found
+2025-10-14 18:09:44,990 - __main__ - ERROR - Error in Slack integration check: No module named 'mcp'
+2025-10-14 18:09:44,990 - __main__ - INFO - Status Report: 1/3 services healthy
+2025-10-14 18:09:44,990 - __main__ - INFO -   feedback-management: error (processed: 0, errors: 103)
+2025-10-14 18:09:44,990 - __main__ - INFO -   reddit-mcp: running (processed: 17, errors: 0)
+2025-10-14 18:09:44,990 - __main__ - INFO -   slack-integration: error (processed: 0, errors: 103)
+2025-10-14 18:09:44,991 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:09:45,613 - __main__ - INFO - Status Report: 3/3 services healthy
+2025-10-14 18:09:45,613 - __main__ - INFO -   feedback-management: running (processed: 0, errors: 0)
+2025-10-14 18:09:45,613 - __main__ - INFO -   reddit-mcp: running (processed: 96, errors: 0)
+2025-10-14 18:09:45,613 - __main__ - INFO -   slack-integration: running (processed: 62, errors: 1)
+2025-10-14 18:09:45,615 - __main__ - INFO - ⏰ Next check in 60 seconds...
+2025-10-14 18:10:44,993 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:10:45,004 - __main__ - ERROR - Error in feedback management check: No module named 'mcp'
+2025-10-14 18:10:45,004 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:10:45,006 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:10:45,006 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:10:45,006 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:10:45,616 - __main__ - INFO - Running health checks for all MCP services...
+2025-10-14 18:10:45,617 - __main__ - INFO - Reddit MCP: Using SSL-fixed Reddit monitor to search for 'earnin'...
+2025-10-14 18:10:45,617 - reddit_monitor_ssl_fixed - INFO - Database initialized at earnin_posts_ssl_fixed.db
+2025-10-14 18:10:45,617 - reddit_monitor_ssl_fixed - INFO - Reddit EarnIn Monitor (SSL Fixed) initialized successfully
+2025-10-14 18:10:45,617 - reddit_monitor_ssl_fixed - INFO - Starting new posts fetch...
+2025-10-14 18:10:47,379 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:10:47,465 - reddit_monitor_ssl_fixed - INFO - ✅ Reddit access token obtained
+2025-10-14 18:10:49,556 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:10:49,594 - reddit_monitor_ssl_fixed - INFO - r/Earnin: 10 posts found
+2025-10-14 18:10:51,597 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
+2025-10-14 18:10:51,678 - reddit_monitor_ssl_fixed - INFO - r/EarninB4B: 10 posts found
