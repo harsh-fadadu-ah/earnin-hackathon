@@ -120,6 +120,12 @@ class RedditEarnInMonitorUnified:
     
     def is_earnin_related(self, post: Dict) -> bool:
         """Check if a post is related to Earnin app or organization"""
+        # If it's from an Earnin-related subreddit, it's automatically related
+        earnin_subreddits = ['earnin', 'earninb4b', 'earninboost']
+        if post.get('subreddit', '').lower() in earnin_subreddits:
+            return True
+        
+        # For other subreddits, check for Earnin keywords
         earnin_keywords = [
             'earnin', 'earn in', 'earn-in', 'earn.in',
             'earnin app', 'earn in app', 'earn-in app',
@@ -135,7 +141,10 @@ class RedditEarnInMonitorUnified:
             'earnin card', 'earn in card',
             'earnin balance shield', 'earn in balance shield',
             'earnin insights', 'earn in insights',
-            'earnin tools', 'earn in tools'
+            'earnin tools', 'earn in tools',
+            # Add more Earnin-related terms
+            'cashout', 'cash out', 'instant pay', 'pay advance',
+            'boost', 'b4b', 'before payday', 'early pay'
         ]
         
         # Combine title and content for checking
