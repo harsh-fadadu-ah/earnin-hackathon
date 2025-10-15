@@ -13,9 +13,17 @@ from dataclasses import dataclass
 from datetime import datetime
 import asyncio
 import aiohttp
+import ssl
 from slack_sdk.web.async_client import AsyncWebClient
 from slack_sdk.errors import SlackApiError
 from dotenv import load_dotenv
+
+# Apply SSL bypass for corporate networks
+try:
+    from ssl_bypass_fix import apply_ssl_bypass
+    apply_ssl_bypass()
+except ImportError:
+    pass
 
 # Load environment variables
 load_dotenv('config/env.local')
@@ -58,7 +66,12 @@ class SlackPoster:
         if not self.bot_token:
             raise ValueError("Slack bot token is required. Set SLACK_BOT_TOKEN in environment or pass as parameter.")
         
-        self.client = AsyncWebClient(token=self.bot_token)
+        # Configure SSL context to handle certificate issues
+        ssl_context = ssl.create_default_context()
+        ssl_context.check_hostname = False
+        ssl_context.verify_mode = ssl.CERT_NONE
+        
+        self.client = AsyncWebClient(token=self.bot_token, ssl=ssl_context)
         self.rate_limit_delay = 1.0  # Delay between requests to avoid rate limits
         
         # Channel validation cache

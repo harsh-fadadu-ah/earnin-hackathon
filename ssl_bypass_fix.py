@@ -76,6 +76,36 @@ class SSLBypass:
         
         requests.Session.__init__ = patched_session_init
         print("✅ Requests SSL bypass configured")
+    
+    @staticmethod
+    def configure_slack_ssl_bypass():
+        """Configure Slack SDK to bypass SSL verification"""
+        try:
+            from slack_sdk.web.async_client import AsyncWebClient
+            from slack_sdk import WebClient
+            
+            # Create SSL context for Slack clients
+            ssl_context = ssl.create_default_context()
+            ssl_context.check_hostname = False
+            ssl_context.verify_mode = ssl.CERT_NONE
+            
+            # Store the SSL context for use by Slack clients
+            SSLBypass._slack_ssl_context = ssl_context
+            print("✅ Slack SDK SSL bypass configured")
+            
+        except ImportError:
+            print("⚠️  Slack SDK not available, skipping Slack SSL bypass")
+    
+    @staticmethod
+    def get_slack_ssl_context():
+        """Get the SSL context for Slack clients"""
+        if hasattr(SSLBypass, '_slack_ssl_context'):
+            return SSLBypass._slack_ssl_context
+        else:
+            ssl_context = ssl.create_default_context()
+            ssl_context.check_hostname = False
+            ssl_context.verify_mode = ssl.CERT_NONE
+            return ssl_context
 
 def apply_ssl_bypass():
     """Apply all SSL bypass configurations"""
@@ -90,6 +120,11 @@ def apply_ssl_bypass():
         SSLBypass.configure_requests_ssl_bypass()
     except ImportError:
         print("⚠️  Requests not available, skipping requests SSL bypass")
+    
+    try:
+        SSLBypass.configure_slack_ssl_bypass()
+    except ImportError:
+        print("⚠️  Slack SDK not available, skipping Slack SSL bypass")
 
 if __name__ == "__main__":
     apply_ssl_bypass()

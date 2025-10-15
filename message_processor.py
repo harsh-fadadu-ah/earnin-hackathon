@@ -17,6 +17,13 @@ from datetime import datetime, timezone
 from dataclasses import dataclass
 import argparse
 
+# Apply SSL bypass for corporate networks
+try:
+    from ssl_bypass_fix import apply_ssl_bypass
+    apply_ssl_bypass()
+except ImportError:
+    pass
+
 # Import our custom modules
 from message_classifier import MessageClassifier, ClassificationResult
 from slack_poster import SlackPoster, PostResult

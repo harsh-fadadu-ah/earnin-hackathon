@@ -1,61 +1,61 @@
 {
   "monitor_status": "running",
-  "uptime_seconds": 102.984015,
+  "uptime_seconds": 3509.18175,
   "check_interval_seconds": 60,
   "unified_database": {
-    "total_messages": 1387,
+    "total_messages": 1060,
     "by_source": {
       "app_store": 13,
       "play_store": 19,
-      "reddit": 1183,
-      "slack": 167,
+      "reddit": 901,
+      "slack": 122,
       "twitter": 5
     },
-    "recent_messages_24h": 367,
+    "recent_messages_24h": 223,
     "by_processed": {
-      "1": 1387
+      "1": 1060
     },
     "database_path": "unified_messages.db"
   },
   "services": {
     "feedback-management-unified": {
       "status": "running",
-      "last_check": "2025-10-15T02:45:34.036193+00:00",
+      "last_check": "2025-10-15T06:43:16.556985+00:00",
       "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "reddit-mcp-unified": {
       "status": "running",
-      "last_check": "2025-10-15T02:45:34.036246+00:00",
-      "processed_count": 1,
+      "last_check": "2025-10-15T06:43:16.557004+00:00",
+      "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "slack-integration-unified": {
       "status": "running",
-      "last_check": "2025-10-15T02:45:41.420719+00:00",
-      "processed_count": 1,
+      "last_check": "2025-10-15T06:43:22.254288+00:00",
+      "processed_count": 0,
       "error_count": 0,
       "last_error": null
     },
     "message-processor": {
       "status": "running",
-      "last_check": "2025-10-15T02:45:50.486756+00:00",
-      "processed_count": 1,
+      "last_check": "2025-10-15T06:43:32.471270+00:00",
+      "processed_count": 2,
       "error_count": 0,
       "last_error": null
     },
     "slack-reply-system": {
       "status": "running",
-      "last_check": "2025-10-15T02:45:54.520341+00:00",
+      "last_check": "2025-10-15T06:43:32.471689+00:00",
       "processed_count": 0,
       "error_count": 0,
       "last_error": null
     }
   },
   "summary": {
-    "total_processed": 3,
+    "total_processed": 2,
     "total_errors": 0,
     "healthy_services": 5,
     "total_services": 5
